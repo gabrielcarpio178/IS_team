@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(blue, white); */
+}
+.content{
+    background: rgb(58, 126, 236);
+    padding-bottom: 25px;
+    height: auto;
+}
+.enagic{
+    /* position: relative; */
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    opacity: 0.5;
+}
+.enagicLogo{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#enagic{
+    width: 500px;
+}
+.discover{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#discover{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mid-content{
+    position: relative;
+    top: 0;
+    background: linear-gradient(to right, rgb(58, 126, 236),rgb(232, 241, 255), white);
+    width: 100%;
+    height: 550px;
+    border-bottom: 1px solid;
+    border-color: grey;
+}
+.image{
+    position: absolute;
+    bottom: 100px;
+    right: 250px;
+}
+.backEnagic{
+    position: absolute;
+    top: 200px;
+    left: -55px;
+    rotate: z 90deg;
+    font-size: 130px;
+    font-weight: 700;
+    opacity: 0.1;
+}
+
+.frontEnagic{
+    position: relative;
+    top: 80px;
+    left: 125px;
+    text-align: center;
+    width: 320px;
+    height: 390px;
+    border: 1px solid;
+    border-color: grey;
+}
+.one{
+    margin-top: -25px;
+    margin-left: -210px;
+    width: 720px;
+    height: 420px;
+}
+.textEnagic{
+    margin-top: -280px;
+    margin-left: 630px;
+    font-size: 27px;
+    color: rgb(25, 90, 194);
+    font-weight: 600;
+}
+
+#tEnagic{
+    font-size: 38px;
+}
+.icons{
+    position: relative;
+    top: 50px;
+    left: 630px;
+    width: 719px;
+}
+#two{
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.two{
+    margin-top: 7px;
+    width: 50px;
+}
+#three{
+    border: 1px solid;
+    margin-top: -60px;
+    margin-left: 100px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.three{
+    margin-top: 7px;
+    margin-left: 8px;
+    width: 50px;
+}
+#four{
+    border: 1px solid;
+    margin-top: -60px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.four{
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 50px;
+}
+#five{
+    border: 1px solid;
+    margin-top: -60px;
+    margin-left: 300px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.five{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 35px;
+}
+#six{
+    border: 1px solid;
+    margin-top: -60px;
+    margin-left: 400px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.six{
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 50px;
+}
+.mid-content2{
+    background: linear-gradient(rgb(58, 126, 236), white);
+    height: auto;
+}
+.boxFamily{
+    padding-top: 100px;
+    /* background: red; */
+    height: auto;
+}
+.mightyBox{
+    margin-left: 70px;
+    padding-top: 50px;
+    text-align: center;
+    width: 550px;
+    height: 585px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.mighty{
+    width: 400px;
+    height: 300px;
+}
+.mightyText{
+    margin-top: 25px;
+}
+#mightyText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.k8{
+    font-size: 18px;
+}
+.platinumBox{
+    margin-top: -585px;
+    margin-left: 730px;
+    padding-top: 50px;
+    text-align: center;
+    width: 550px;
+    height: 585px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.platinum{
+    width: 400px;
+    height: 300px;
+}
+.platinumText{
+    margin-top: 25px;
+}
+#platinumText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.SD501{
+    font-size: 18px;
+}
+.originalBox{
+    margin-left: 70px;
+    margin-top: 90px;
+    padding-top: 50px;
+    text-align: center;
+    height: 620px;
+    width: 550px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.original{
+    width: 400px;
+    height: 340px;
+}
+.originalText{
+    margin-top: 25px;
+}
+#originalText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#original{
+    font-size: 18px;
+}
+.heavyBox{
+    margin-top: -620px;
+    margin-left: 730px;
+    padding-top: 50px;
+    text-align: center;
+    width: 550px;
+    height: 620px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.heavy{
+    width: 400px;
+    height: 340px;
+}
+.heavyText{
+    margin-top: 25px;
+}
+#heavyText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#heavy{
+    font-size: 18px;
+}
+.juniorBox{
+    margin-left: 70px;
+    margin-top: 90px;
+    padding-top: 50px;
+    text-align: center;
+    height: 620px;
+    width: 550px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.junior{
+    width: 400px;
+    height: 340px;
+}
+.juniorText{
+    margin-top: 25px;
+}
+#juniorText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#junior{
+    font-size: 18px;
+}
+.counterBox{
+    margin-top: -620px;
+    margin-left: 730px;
+    padding-top: 50px;
+    text-align: center;
+    width: 550px;
+    height: 620px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.counter{
+    width: 400px;
+    height: 340px;
+}
+.counterText{
+    margin-top: 25px;
+}
+#counterText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#counter{
+    font-size: 18px;
+}
+.mineralBox{
+    margin-left: 400px;
+    margin-top: 90px;
+    padding-top: 50px;
+    text-align: center;
+    height: 620px;
+    width: 550px;
+    background: rgb(214, 207, 207);
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.mineral{
+    width: 400px;
+    height: 340px;
+}
+.mineralText{
+    margin-top: 25px;
+}
+#mineralText{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#mineral{
+    font-size: 18px;
+}
+.bottomContent{
+    margin-top: 150px;
+    background: rgb(58, 126, 236);
+    padding-bottom: 40px;
+    height: auto;
+    text-align: center;
+}
+.versatility{
+    padding-top: 40px;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* @media only screen and (min-width: 320px) {
+    .container{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .enagic{
+        margin-top: 25px;
+        margin-left: 25px;
+        width: 40px;
+    }
+    #enagic{
+        width: 300px;
+    }
+    #discover{
+        font-size: 17px;
+    }
+    .backEnagic{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .mid-content{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: 380px;
+    }
+    .backEnagic{
+        position: absolute;
+        top: 130px;
+        left: -100px;
+        rotate: z 90deg;
+        font-size: 90px;
+        font-weight: 700;
+        opacity: 0.1;
+    }
+    .frontEnagic{
+        position: relative;
+        top: 45px;
+        left: 21px;
+        text-align: center;
+        width: 200px;
+        height: 270px;
+        border: 1px solid;
+        border-color: grey;
+    }
+    .one{
+        margin-top: -25px;
+        margin-left: -180px;
+        width: 550px;
+        height: 310px;
+    }
+    .textEnagic{
+        margin-top: -180px;
+        margin-left: 250px;
+        font-size: 15px;
+        color: rgb(25, 90, 194);
+        font-weight: 600;
+    }
+    #tEnagic{
+        font-size: 18px;
+    }
+    .icons{
+        position: relative;
+        top: 25px;
+        left: 250px;
+        width: 500px;
+    }
+    #two{
+        border: 1px solid;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+    }
+    .two{
+        margin-top: 4px;
+        width: 30px;
+    }
+    #three{
+        border: 1px solid;
+        margin-top: -35px;
+        margin-left: 55px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+    }
+    .three{
+        margin-top: 2px;
+        margin-left: 4px;
+        width: 30px;
+    }
+    #four{
+        border: 1px solid;
+        margin-top: -35px;
+        margin-left: 110px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+    }
+    .four{
+        margin-top: 5px;
+        margin-left: 2px;
+        width: 30px;
+    }
+    #five{
+        border: 1px solid;
+        margin-top: -35px;
+        margin-left: 170px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+    }
+    .five{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 25px;
+    }
+    #six{
+        border: 1px solid;
+        margin-top: -35px;
+        margin-left: 225px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+    }
+    .six{
+        margin-top: 8px;
+        margin-left: 10px;
+        width: 30px;
+    }
+    .mid-content2{
+        background: linear-gradient(rgb(58, 126, 236), white);
+        height: auto;
+    }
+    .boxFamily{
+        padding-top: 100px;
+        padding-top: 20px;
+        height: auto;
+    }
+    .mightyBox{
+        margin-left: 20px;
+        padding-top: 18px;
+        text-align: center;
+        width: 250px;
+        height: 300px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .mighty{
+        width: 160px;
+        height: 100px;
+    }
+    .mightyText{
+        margin-top: 25px;
+    }
+    #mightyText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    .k8{
+        font-size: 9px;
+    }
+    .platinumBox{
+        margin-top: -300px;
+        margin-left: 300px;
+        padding-top: 18px;
+        text-align: center;
+        width: 250px;
+        height: 300px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .platinum{
+        width: 160px;
+        height: 100px;
+    }
+    #platinumText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    .SD501{
+        font-size: 9px;
+    }
+    .originalBox{
+        margin-left: 20px;
+        margin-top: 26px;
+        padding-top: 18px;
+        text-align: center;
+        height: 300px;
+        width: 250px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .original{
+        width: 160px;
+        height: 100px;
+    }
+    #originalText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    #original{
+        font-size: 9px;
+    }
+    .heavyBox{
+        margin-top: -300px;
+        margin-left: 300px;
+        padding-top: 18px;
+        text-align: center;
+        width: 250px;
+        height: 300px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .heavy{
+        width: 160px;
+        height: 100px;
+    }
+    #heavyText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    #heavy{
+        font-size: 9px;
+    }
+    .juniorBox{
+        margin-left: 20px;
+        margin-top: 26px;
+        padding-top: 18px;
+        text-align: center;
+        height: 300px;
+        width: 250px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .junior{
+        width: 160px;
+        height: 100px;
+    }
+    #juniorText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    #junior{
+        font-size: 9px;
+    }
+    .counterBox{
+        margin-top: -300px;
+        margin-left: 300px;
+        padding-top: 18px;
+        text-align: center;
+        width: 250px;
+        height: 300px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .counter{
+        width: 160px;
+        height: 100px;
+    }
+    #counterText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    #counter{
+        font-size: 9px;
+    }
+    .mineralBox{
+        margin-left: 160px;
+        margin-top: 26px;
+        padding-top: 18px;
+        text-align: center;
+        height: 300px;
+        width: 250px;
+        background: rgb(214, 207, 207);
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    .mineral{
+        width: 160px;
+        height: 100px;
+    }
+    #mineralText{
+        font-size: 12px;
+        text-decoration: underline;
+    }
+    #mineral{
+        font-size: 9px;
+    }
+    .bottomContent{
+        margin-top: 50px;
+        background: rgb(58, 126, 236);
+        padding-bottom: 40px;
+        height: auto;
+        text-align: center;
+    }
+    .versatility{
+        padding-top: 40px;
+        color: white;
+        font-size: 16px;
+    }
+} */

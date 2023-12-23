@@ -1,0 +1,276 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid; */
+}
+body{
+    font-family: "myFirstFont";
+}
+
+.container{
+    background: #d9d9d9;
+}
+.header{
+    padding-top: 15px;
+}
+.back-icon{
+    width: 40px;
+    margin-left: 10px;
+}
+.tranzact{
+    margin-left: 15px;
+}
+.visa{
+    display: flex;
+    position: relative;
+    color: rgb(52, 231, 52);
+    background-color: white;
+    font-size: 1.5rem;
+    /* height: 370px; */
+}
+.visa .text{
+    font-size: clamp(0.4rem, 1.5vw, 1.5rem);
+}
+.visa .visa-image{
+    position: absolute;
+}
+.powerspend{
+    display: flex;
+    width: 100%;
+}
+.powerspend-header .double, .saving-text .spend-body, .kickstart .upPower-content{
+    font-size: clamp(1.5rem, 1.5vw, 1.5rem);
+}
+.coming, .operates{
+    margin-top: 30px;
+}
+.powerspend-content, .saving-text, .kickstart{
+    color: #7D7D7D;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
+}
+.powerspend-content{
+    display: flex;
+}
+.rewand{
+    width: 100%;
+}
+.saving-content{
+    display: flex;
+}
+.power-up{
+    display: flex;
+}
+.become{
+    background: #5AF400;
+    display: flex;
+    color: white;
+    position: relative;
+    margin-top: 50px;
+}
+.become .member h1, .become .member p{
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
+}
+.contentmember{
+    margin-top: 10px;
+}
+.member{
+    width: 50%;
+}
+.member-image{
+    position: absolute;
+}
+.get{
+    text-align: center;
+}
+
+.get a{
+    width: 100px;
+    margin-top: 10%;
+    background-color: #5AF400;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+}
+.financial{
+    text-align: center;
+    font-size: clamp(0.7rem, 1.3vw, 1rem);
+}
+.financials{
+    text-align: justify;
+}
+.rights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    text-align: center;
+    background-color: #3E7B2F;
+    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+}
+@media screen and (min-width: 320px) {
+    .tranzact{
+        max-width: 60%;
+    }
+    .visa{
+        padding: 10% 10%;
+        margin-top: 3%;
+    }
+    .visa .visa-image{
+        right: 0px;
+        top: 0px;
+        max-width: 50%;
+    } 
+    .visa .text{
+        text-shadow: -2px -2px rgb(151, 232, 151);
+    }
+    .powerspend{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 15%;
+        padding: 0% 5%;
+        gap: 1rem;
+    }
+    .powerspend .phone{
+        max-width: 55%;
+    }
+    .powerspend-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .saving-content{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 0% 5%;
+    }
+    .saving-content .saving-image{
+        max-width: 55%;
+    }
+    .power-up{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0% 5%;
+        justify-content: space-between;
+    }
+    .power-up .power-up-image{
+        max-width: 40%;
+    }
+    .become{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 5%;
+    }
+    .become .member-image{
+        right: 0%;
+        max-width: 30%;
+        bottom: 0%;
+    }
+    .get{
+        padding: 1%;
+        margin-top: 2%;
+    }
+    .get a{
+        padding: 1% 2%;
+    }
+    .financial{
+        margin-top: 3%;
+    }
+    .financial{
+        padding: 0% 2%;
+    }
+    .rights{
+        height: 10vh;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .tranzact{
+        max-width: 100%;
+    }
+    .visa{
+        padding: 7% 10%;
+        margin-top: 3%;
+    }
+    .visa .text{
+        text-shadow: -10px -10px rgb(151, 232, 151);
+    }
+    .visa .visa-image{
+        right: 0px;
+        top: 0px;
+        min-width: 40%;
+    }
+    .powerspend{
+        flex-direction: row;
+        align-items: center;
+        text-align: start;
+        margin-top: 15%;
+        padding: 0% 5%;
+        gap: 1rem;
+    }
+    .powerspend .phone{
+        max-width: 55%;
+    }
+    .powerspend-content{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.2rem;
+    }
+    .saving-content{
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+    }
+    .saving-content .saving-image{
+        max-width: 55%;
+    }
+    .power-up{
+        flex-direction: row;
+        align-items: center;
+        padding: 0% 5%;
+        justify-content: space-between;
+    }
+    .power-up .power-up-image{
+        max-width: 40%;
+    }
+    .become{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 10%;
+        text-align: start;
+    }
+    .become .member-image{
+        right: 0%;
+        max-width: 30%;
+        bottom: 1%; 
+    }
+    .get{
+        padding: 1%;
+        margin-top: 2%;
+    }
+    .get a{
+        padding: 1% 2%;
+    }
+    .financial{
+        margin-top: 3%;
+    }
+    .financial{
+        padding: 0% 2%;
+    }
+    .rights{
+        height: 20vh;
+    }
+    .saving-text, .kickstart{
+        text-align: start;
+    }
+}

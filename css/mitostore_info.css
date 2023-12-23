@@ -1,0 +1,278 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    font-family: "myFirstFont";
+}
+
+.header{
+    background: #4169e1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.body-content{
+    display: flex;
+    padding: 5%;
+    gap: 20px;
+}
+.body-content > .content-image{
+    background: #C0C0C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body-content > .content-info{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 4%;
+}
+.content-label > .add{
+    background-color: #C0C0C0;
+    height: 1vh;
+    width: 80%;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+.store-list{
+    margin-top: 10px;
+}
+.store-list > ul{
+    padding-left: 20px;
+}
+.blue-line{
+    background-color: #4169e1;
+    width: 100%;
+    height: 4vh;
+    margin: 2% 0%;
+}
+.last > p{
+    display: flex;
+    flex-direction: column;
+}
+p > span{
+    margin-top: 10px;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    /* Set the height of the modal */
+    height: 60%; /* Adjust this value as needed */
+    width: 70%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds modal height */
+  }
+  .overlays {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal */
+  .modals {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    /* Set the height of the modal */
+    height: 40%; /* Adjust this value as needed */
+    width: 70%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds modal height */
+  }
+  .overlayes {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal */
+  .modales {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    /* Set the height of the modal */
+    height: 40%; /* Adjust this value as needed */
+    width: 70%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds modal height */
+  }
+  .overla {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal */
+  .moda {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    /* Set the height of the modal */
+    height: 60%; /* Adjust this value as needed */
+    width: 70%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds modal height */
+  }
+  .over {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  /* Style for the modal */
+  .mode {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    /* Set the height of the modal */
+    height: 60%; /* Adjust this value as needed */
+    width: 70%;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds modal height */
+  }
+  button{
+    width: 65%;
+    background: transparent;
+    font-weight: bolder;
+    font-size: large;
+   padding: 10px;
+   text-align: left;
+
+}
+.close{
+    width: 15%;
+    background: transparent;
+    font-weight: bolder;
+    font-size: large;
+   padding: 5px;
+}
+@media screen and (min-width: 320px) {
+    .header > img{
+        max-width: 30%;
+        min-height: 10%;
+    }
+    .header > .link{
+        max-width: 5%;
+        margin-left: 10px;
+        padding: 10px 0px;
+    }
+    .body-content{
+        flex-direction: column;
+    }
+    .body-content > .content-image{
+        width: 100%;
+        height: 85vh;
+    }
+    .content-image > img{
+        min-width: 50%;
+    }
+    button{
+        width: 75%;
+       padding: 10px;
+    
+    }
+    .close{
+        width: 38%;
+       padding: 5px;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .header > img{
+        max-width: 10%;
+        min-height: 15%;
+    }
+    .header > .link{
+        max-width: 5%;
+        margin-left: 10px;
+        padding: 10px 0px;
+    }
+    .body-content{
+        flex-direction: row;
+    }
+    .body-content > .content-image{
+        width: 100%;
+        height: 85vh;
+    }
+    .content-image > img{
+        min-width: 100%;
+    }
+    button{
+        width: 75%;
+       padding: 10px;
+    
+    }
+    .close{
+        width: 35%;
+       padding: 5px;
+    }
+}

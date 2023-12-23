@@ -1,0 +1,355 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    font-family: "myFirstFont";
+    background: linear-gradient(rgb(52, 118, 223), white);
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container > a{
+    width: 50%;
+    height: 10vh;
+    padding: 2% 0% 0% 2%;
+}
+a > img{
+    max-width: 10%;
+}
+.label-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label-content > .mito-title{
+    font-size: clamp(2rem, 2.5vw, 1.5rem);
+}
+.mito{
+    text-align: center;
+    font-weight: 700;
+}
+.product{
+    text-align: center;
+    margin-top: 30px;
+    font-size: clamp(2rem, 2.5vw, 1.5rem);
+}
+.product-content{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+.product-info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(221, 215, 215);
+    border-radius: 10px;
+}
+.product-info > .restored
+{
+    margin-top: 20px;
+}
+.product-info > .rejuvinates
+{
+    margin-top: 70px;
+}
+.product-info > button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 180px;
+    background: rgb(80, 116, 215);
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 0.5px;
+}
+.information{
+    text-align: center;
+    display: block;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(63, 60, 60);
+}
+.information > h3{
+    margin-top: 20px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+.roles-content{
+    display: flex;
+    gap: 20px;
+    /* margin-left: 10px; */
+    width: 70%;
+    padding: 2%;
+}
+.roles-info{
+    width: 100%;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(222, 147, 128);
+
+}
+/* .roles-info > .roles-showdow::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-top: -15px;
+    margin-left: -55%;
+    border: none;
+    z-index: 1;
+} */
+.role-content{
+    position: relative;
+    border: 1px solid black;
+    z-index: 2;
+}
+.role-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.role-content > .metabolism, .cellIcon, .calciumIcon {
+    margin-top: 10px;
+    max-width: 33%;
+}
+.role-content > .iconEnergy{
+    margin-top: 5px;
+    max-width: 130%;
+}
+.role-content > #energy, #metabolism, #cellIcon, #calciumIcon{
+    margin-top: 10px;
+}
+.role-content > p{
+    text-align: center;
+    margin-top: 25px;
+}
+.colorBlue{
+    width: 100%;
+    height: 10vh;
+    margin: 2% 0%;
+    background-color: rgb(52, 118, 223);
+}
+.importance{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.health-content{
+    color: white;
+    background-color: rgb(52, 118, 223);
+    padding: 0% 5%;
+}
+.importance-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
+
+.list > ul > li{
+    margin-top: 20px;
+}
+.list > ul > li > span{
+    font-weight: bold;
+    padding-right: 10px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+}
+.support > .label-support{
+    text-align: center;
+    font-weight: 600;
+}
+.label-support > div > span{
+    color: rgb(52, 118, 223);
+}
+.support > .content-support{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+.info-support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.info-support > .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(203, 203, 203);
+    height: 15vh;
+    width: 40%;
+}
+.info-support > p{
+    font-size: 1.5rem;
+}
+.info > img{
+    max-width: 50%;
+}
+.hr{
+    width: 100%;
+    height: 0.5vh;
+    color: black;
+    border: 1px solid black;
+    background-color: black;
+}
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 2%;
+}
+.conclusion > h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.conclusion > h3{
+    padding: 1% 2%;
+}
+@media screen and (min-width: 320px) {
+    .label-content > .logo-image{
+        max-width: 50%;
+    }
+    .mito{
+        line-height: 20px;
+        font-size: 1rem;
+    }
+    .product-content{
+        padding: 0% 0%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-info{
+        width: 75%;
+        height: 60vh;
+    }
+    .product-info > img{
+        max-width: 50%;
+    }
+    .roles-content{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+    }
+    .role-content{
+        right: 0px;
+        bottom: 0px;
+        height: 60vh;
+    }
+    .health-content{
+        height: 90vh;
+    }
+    /* .roles-info > .roles-showdow::before{
+        display: block;
+        margin-top: 0px;
+        right: 0px;
+        height: 62%;
+    } */
+    .importance-title > img{
+        max-width: 10%;
+    }
+    .list > ul > li{
+        font-size: 0.7rem;
+    }
+    .list > ul > li > span{
+        font-size: 1rem;
+    }
+    .support > .label-support{
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .support > .content-support{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .label-content > .logo-image{
+        max-width: 25%;
+    }
+    .mito{
+        line-height: 50px;
+        font-size: 1.5rem;
+    }
+    .product-content{
+        padding: 0% 10%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-info{
+        width: 60%;
+        height: 70vh;
+    }
+    .product-info > img{
+        max-width: 50%;
+    }
+    .roles-content{
+        flex-direction: row;
+        height: 60vh;
+        width: 100%;
+        justify-content: center;
+    }
+    /* .role-content{
+        right: 15px;
+        bottom: 15px;
+    } */
+    .role-content{
+        height: 100vh;
+    }
+    .roles-info{
+        position: relative;
+    }
+    /* .roles-info > .roles-showdow::before{
+        height: 100%;
+    } */
+    .health-content{
+        height: 55vh;
+    }
+    .importance-title > img{
+        max-width: 5%;
+    }
+    .list > ul > li{
+        font-size: 1.1rem;
+    }
+    .list > ul > li > span{
+        font-size: 1.2rem;
+    }
+    .support > .label-support{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .support > .content-support{
+        flex-direction: row;
+    }
+}
+

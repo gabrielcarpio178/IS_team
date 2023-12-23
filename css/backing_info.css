@@ -1,0 +1,115 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    background: linear-gradient(to bottom, #1a251a 24%, #087208 100%);
+    font-family: "myFirstFont";
+    color: white;
+}
+.back-icon{
+    width: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.des{
+    margin-top: 1%;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.headings{
+    font-size: clamp(1rem, 1vw, 0.7rem);
+}
+.des, .headings{
+    text-align: center;
+    padding: 1% 5%;
+}
+
+.content-cards{
+    display: flex;
+    margin-top: 15px;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 30px 0px 30px;
+}
+.card{
+    background-color: #141814;
+    border-radius: 10px/10px;
+}
+.card .text-content, .off{
+    padding: 10%;
+}
+
+.off{
+    font-size: 1rem;
+}
+.member{
+    color: #08c408;;
+}
+.office{
+    color: #d5d825;
+}
+.button{
+    background: transparent;
+    color: #08c408;
+    border: 2px solid #08c408;
+    padding: 3%;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 320px) {
+    .content-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+    .card-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banks{
+        margin-top: 50px;
+    }
+    .headings{
+        font-size: clamp(0.7rem, 1vw, 0.7rem);
+    }
+    .image-card{
+        max-width: 30%;
+    }
+}
+@media screen and (min-width: 1020px) {
+    .content-cards{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card{
+        width: 35%;
+    }
+    .card-content{
+        flex-direction: row;
+        text-align: start;
+    }
+    .banks{
+        margin-top: 0px;
+    }
+    .headings{
+        font-size: clamp(1rem, 1vw, 0.7rem);
+    }
+    .image-card{
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nutriswish.css">
+    <title>NEUMI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first-content">
+            <div class="image">
+                <a class="arrow" href="gluta_info.html"><img class="arrows" src="image/arrow_single.png"></a>
+            </div>
+            <div class="image">
+                <img class="neumi" src="image/neumi_nobackground.png">
+            </div>
+        </div>
+        <div class="second-content">
+            <div class="nutriswish">
+                <img class="nutri swishes" src="image/nutriSwish.png">
+                <div class="nutriswishes">
+                    <div class="textSwish">
+                        <h5 class="swish swishes">NutriSwish</h5>
+                    </div>
+                    <p class="days">Gone are the days of waiting months to see results from supplementation! We have set out to disrupt the health industry through rapid absorption of key ingredients through our HydraStat technology. Nano sized ingredients are the way of the future, and we are the trailblazers!</p>
+                    <hr>
+                    <div class="buttons">
+                        <div class="button but">
+                            <a id="product">Product Benefits</a>
+                        </div>
+                        <div class="button butt">
+                            <a id="ingredients">Ingredients List</a>
+                        </div>
+                        <div class="button butn">
+                            <a id="product-sheet">Neumi Skin Product Sheet</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="third-content">
+            <div class="key">
+                <h1 class="ingredient">KEY INGREDIENT</h1>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <b class="gluta">Glutathione:</b> The body’s master antioxidant. This antioxidant rids the body of free radicals, boosts other antioxidants and vitamins, and is critical in cell metabolism
+                        </li><br>
+                        <li>
+                            <b class="vit">Vitamin C:</b> Supports a healthy immune system and mental focus. • L-Cysteine: An amino acid that is a building block to Glutathione. Our blend of ingredients build on top of one another to create energy naturally inside of your body. 
+                        </li><br>
+                        <li>
+                            <b class="alpha">Alpha Lipoic Acid:</b> An antioxidant that helps enzymes turn nutrients into energy, and may support weight loss. 
+                        </li><br>
+                        <li>
+                            <b class="cur">Curcumin:</b> An antioxidant that supports joints and has anti-inflammatory properties.
+                        </li><br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-content">
+            <div class="superior sup">
+                <h2 class="absorption">Superior Absorption Through HydraStat Nano-Technology</h2>
+                <p class="technology">
+                    Using proprietary HydraStat technology, the makers of NutriSwish® have nanosized its active ingredients to nanoparticle sizes that become bioavailable within seconds by oral “swishing” for thirty seconds or longer and then swallowing. Fragile ingredients like Glutathione have been expensive to get into the bloodstream- until now. With our technology glutathione and other key ingredients are affordably available.
+                </p>
+            </div>
+            <div class="superior supImage">
+                <img class="three" src="image/threenutriswish.png">
+            </div>
+        </div>
+    </div>
+    <div id="myProduct" class="product">
+        <div class="product-content">
+            <span class="close-product">&times;</span>
+            <div  class="preview1">
+                <img class="preview1s" src="image/preview1.png">
+            </div>
+            <h2 class="preview1ss">Product Benefits</h2>
+            <div class="sixlist">
+                <ul class="unorderList" style="list-style-type: disc;">
+                    <li>Immune Booster</li>
+                    <li>Joint Support</li>
+                    <li>Cognitive Health</li>
+                    <li>Clean & Sustained Energgy</li>
+                    <li>Rapid Recovery</li>
+                    <li>Improves Sleep & Much More</li>   
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <div id="myIngredient" class="ingredients">
+        <div class="ingredient-content">
+            <span class="close-ingredient">&times;</span>
+            <div class="preview1">
+                <img class="preview2s" src="image/preview1.png">
+            </div>
+            <h2 class="preview1ss">Full Ingredients list</h2>
+            <div class="ingredient-list">
+                <ul class="unorderList" style="list-style-type: disc;">
+                    <li>Ultra-Pure Water: The "Hydra" in HydraStat Nanotechnology™</li>
+                    <li>Glutathione : The body’s master antioxidant. This antioxidant rids the body of free radicals, boosts other antioxidants and vitamins, and is critical in cell metabolism.</li>
+                    <li>L-Cysteine: An amino acid that is a building block to Glutathione. Our blend of ingredients build on top of one another to create energy naturally inside of your body.</li>
+                    <li>Calcium Ascorbate (Vitamin C): Supports a healthy immune system and overall health.</li>
+                    <li>Curcumin: An antioxidant that supports general health and well-being and has anti-inflammatory properties.</li>
+                    <li>Tartaric Acid: Helps balance the pH levels of the formula for freshness and absorption.</li>
+                    <li>Potassium Sorbate: Preserves freshness and prevents the growth of mold, yeast, and bacteria in our products.</li>
+                    <li>Peppermint Extract: For flavoring.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="mySheet" class="sheets">
+        <div class="sheet-content">
+            <span class="close-sheet">&times;</span>
+            <div class="preview1">
+                <img class="preview3s" src="image/preview1.png">
+            </div>
+            <h2 class="preview1ss">NutriSwish Product Sheet</h2>
+            <a class="viewSheet" href="#">Click Here to View the Product Sheet</a>
+        </div>
+    </div>
+    <script>
+        var productModal = document.getElementById("myProduct");
+        var ingredientModal = document.getElementById("myIngredient");
+        var sheetModal = document.getElementById("mySheet");
+    
+        var productBtn = document.getElementById("product");
+        var ingredientBtn = document.getElementById("ingredients");
+        var sheetBtn = document.getElementById("product-sheet");
+    
+        var productClose = document.getElementsByClassName("close-product")[0];
+        var ingredientClose = document.getElementsByClassName("close-ingredient")[0];
+        var sheetClose = document.getElementsByClassName("close-sheet")[0];
+    
+        productBtn.onclick = function() {
+            productModal.style.display = "block";
+        }
+    
+        ingredientBtn.onclick = function() {
+            ingredientModal.style.display = "block";
+        }
+    
+        sheetBtn.onclick = function() {
+            sheetModal.style.display = "block";
+        }
+
+        productClose.onclick = function() {
+            productModal.style.display = "none";
+        }
+    
+        ingredientClose.onclick = function() {
+            ingredientModal.style.display = "none";
+        }
+    
+        sheetClose.onclick = function() {
+            sheetModal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == productModal) {
+                productModal.style.display = "none";
+            }
+            if (event.target == ingredientModal) {
+                ingredientModal.style.display = "none";
+            }
+            if (event.target == sheetModal) {
+                sheetModal.style.display = "none";
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>

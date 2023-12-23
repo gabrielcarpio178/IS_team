@@ -1,0 +1,241 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+body {
+    margin: 0;
+    font-family: "myFirstFont";
+    overflow-x: none;
+}
+
+.header {
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+    background-image: url('../image/man.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.welcome {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    color: white;
+}
+
+.about {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: black;
+    overflow-x: hidden;
+}
+
+.us {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.des1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+/* Add more styles for better responsiveness */
+@media screen and (max-width: 600px) {
+    .title {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .value {
+        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        text-align: center; /* Center text within .value */
+    }
+
+    .value img {
+        width: 50px; /* Adjust the width as needed */
+        margin-bottom: 10px; /* Add margin to separate image and text */
+    }
+
+    .value h3 {
+        font-size: 1rem; /* Adjust the font size as needed */
+        margin-bottom: 5px; /* Add margin to separate heading and text */
+    }
+
+    .value p {
+        font-size: 0.8rem; /* Adjust the font size as needed */
+        line-height: 1rem; /* Adjust the line height as needed */
+        margin-right: 10px; /* Remove default margin to ensure text is centered */
+    }
+
+    .section2 {
+        flex-direction: column;
+        margin-left: 60px;
+    }
+
+    .title4 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .welcome {
+        font-size: 16px;
+        bottom: -10px;
+    }
+
+    .us, .vis1, .vis2, .vis3, .vis4, .in {
+        font-size: 18px;
+    }
+
+    .des1, .des2, .des3, .des4 {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .title2{
+        text-align: left;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .cards {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+        align-items: flex-start !important;
+        height: auto !important;
+    }
+    
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        width: 100% !important;
+        margin: 20px 0 !important;
+    }
+    
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+    }
+    
+    .absenteeism,
+    .healthcare,
+    .productivity,
+    .negative,
+    .contagion {
+        width: 30% !important;
+    }
+    
+    .one,
+    .two,
+    .three,
+    .four,
+    .five {
+        margin-top: 15px !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+    }
+    
+    .p {
+        text-align: center !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .vision-section,
+    .mission-section {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 20px !important;
+    }
+
+    .title1,
+    .title2 {
+        width: 100% !important;
+        background: none !important;
+        color: black !important;
+        padding: 10px !important;
+    }
+
+    .content1,
+    .content2 {
+        width: 100% !important;
+        padding: 10px !important;
+        background: none !important;
+        color: black !important;
+    }
+
+    .title1 p,
+    .title2 p {
+        text-align: center !important;
+    }
+
+    .des2,
+    .des3 {
+        font-size: 15px !important;
+        text-align: justify !important;
+    }
+
+    .vision-section .des2 {
+        order: 1;
+    }
+
+    .vision-section .des3 {
+        order: 2;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .title2{
+        margin-top: 50px;
+    }
+    .des2{
+        margin-top: 50px;
+    }
+    .des3{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .vis3{
+        margin-top: 200px!important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .investing{
+        font-size: 12px!important;
+    }
+}

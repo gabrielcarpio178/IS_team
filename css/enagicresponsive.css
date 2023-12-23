@@ -1,0 +1,183 @@
+@media only screen and (max-width: 600px) {
+/*     * {
+        outline: 1px solid black;
+    } */
+
+    body{
+        width: 100%;
+    }
+
+    .enagicLogo img{
+        width: 100%!important;
+        height: auto;
+        text-align: center;
+        margin: 0;
+    }
+
+    #discover {
+        font-size: 18px ;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+
+    .mid-content2 {
+        background: linear-gradient(rgb(58, 126, 236), white) ;
+        height: auto ;
+    }
+
+    .boxFamily {
+        display: grid ;
+        grid-template-columns: 1fr ;
+        justify-content: center ;
+        margin: 20px ;
+    }
+
+    .mightyBox,
+    .platinumBox,
+    .originalBox,
+    .heavyBox,
+    .juniorBox,
+    .counterBox,
+    .mineralBox {
+        width: 80% ;
+        height: auto;
+        margin: 0 auto 20px auto ;
+        padding: 20px ;
+        text-align: center ;
+        background: rgb(214, 207, 207) ;
+        border-radius: 10px ;
+    }
+
+    .mighty,
+    .platinum,
+    .original,
+    .heavy,
+    .junior,
+    .counter,
+    .mineral {
+        max-width: 100% ;
+        height: auto ;
+    }
+
+    .mightyText,
+    .platinumText,
+    .originalText,
+    .heavyText,
+    .juniorText,
+    .counterText,
+    .mineralText {
+        margin-top: 25px ;
+        text-align: center ;
+    }
+
+    #mightyText,
+    #platinumText,
+    #originalText,
+    #heavyText,
+    #juniorText,
+    #counterText,
+    #mineralText {
+        font-size: 20px ;
+        text-decoration: underline ;
+    }
+
+    .k8,
+    .SD501,
+    #original,
+    #heavy,
+    #junior,
+    #counter,
+    #mineral {
+        font-size: 15px ;
+    }
+
+    .bottomContent {
+        text-align: center ;
+        padding: 20px ;
+    }
+
+    .versatility {
+        margin-bottom: 30px ;
+    }
+    
+    .mid-content {
+        height: auto ;
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .whole{
+        justify-content: center;
+        margin-left: 0;
+        text-align: center;
+    }
+    .frontEnagic img{
+        max-width: 100% ;
+        height: auto ;
+        text-align: center;
+        justify-content: center;
+    }
+    .one{
+        margin-top: -105px;
+        margin-left: 10px;
+        padding-right: 0px;
+        width: 140%;
+        height: auto;
+    }
+
+    .backEnagic{
+        display: none;
+    }
+
+    .frontEnagic {
+        margin-top: 20px ;
+        margin-left: -250px;
+        width: 70% ;
+        border: none;
+    }
+
+    #tEnagic {
+        font-size: 21px ;
+        font-weight: bold ;
+    }
+
+    .textEnagic {
+        font-size: 15px ;
+        margin-top: -250px ;
+        margin-left: 0 ;
+        text-align: center ;
+    }
+    
+    .image {
+        margin-top: 30px ;
+        margin-bottom: 10px ;
+        justify-content: center ;
+        position: static ;
+        display: flex ;
+        flex-direction: row ;
+
+    }
+    
+    #two, #three, #four, #five, #six {
+        margin: 10px 10px 10px 0;
+    }
+
+    .versatility {
+        font-size: 18px ;
+        text-align: center ;
+        line-height: 2rem ;
+    }
+    .back{
+        margin-top: -19px;
+        margin-left: -42px;
+    }
+      .back img{
+        width: 14px;
+        height: 14px;
+    }
+}

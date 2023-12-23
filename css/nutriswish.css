@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background: #FFFFFF;
+}
+.first-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    background: #57B5E9;
+}
+.arrow > .arrows{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.arrows{
+    width: 50px;
+}
+.neumi{
+    width: 200px;
+}
+.second-content{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    height: auto;
+    gap: 1px;
+}
+.nutriswish{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.swishes{
+    text-align: left;
+}
+.nutri{
+    margin-left: 5%;
+    width: 120%;
+}
+.swish{
+    width: 100%;
+    padding: 15% 0px 0px 0px;
+    color: #565555;
+    font-size: 35px;
+    font-weight: 500;
+}
+.nutriswishes{
+    margin-right: 4%;
+    margin-left: 18%;
+}
+.days{
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    font-size: 26px;
+    color: #565555;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.but{
+    margin-top: 10%;
+    padding-top: 11%;
+    padding-bottom: 10%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+    background: #57B5E9;
+    width: 100%;
+    font-size: 20px;
+    
+}
+.butt{
+    margin-top: 11%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+    background: #57B5E9;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.butn{
+    margin-top: 8%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #57B5E9;
+    width: 70%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 18%;
+}
+.third-content{
+    background: #57B5E9;
+    text-align: center;
+}
+.key{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.ingredient{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+}
+.list{
+    display: inline-block;
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 27px;
+    width: 91%;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    line-height:180%;
+}
+.fourth-content{
+    display: grid;
+    margin-top: 5%;
+    padding-bottom: 10%;
+    grid-template-columns: auto auto;
+    color: #565555;
+}
+
+.absorption{
+    font-size: 35px;
+    width: 100%;
+    position: relative;
+    font-weight: 500;
+    left: 4%;
+}
+.three{
+    margin-top: 15%;
+    padding-right: 10%;
+    width: 350px;
+}
+.technology{
+    margin-top: 5%;
+    margin-left: 4.5%;
+    width: 87.3%;
+    font-size: 30px;
+}
+hr{
+    margin-top: 10%;
+}
+.product {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  .ingredients{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  .sheets{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  #product, #ingredients, #product-sheet{
+    cursor: pointer;
+  }
+  .preview1{
+    text-align: center;
+  }
+  .preview1s{
+    width: 60%;
+  }
+  .preview1ss{
+    text-align: center;
+    color: #565555;
+    font-size: 25px;
+  }
+
+  .product-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  .sheet-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  .ingredient-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: -20%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 55%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetops;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetops;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  .preview2s{
+    width: 50%;
+  }
+  
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  @-webkit-keyframes animatetops {
+    from {top:-300px; opacity:0}
+    to {top:-20%; opacity:1}
+  }
+  
+  @keyframes animatetops {
+    from {top:-300px; opacity:0}
+    to {top:-20%; opacity:1}
+  }
+  
+  .close-product, .close-sheet {
+    color: black;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: 2%;
+  }
+  .close-ingredient{
+    color: black;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 0%;
+    margin-top: 2%;
+  }
+  
+  .close-product,  .close-ingredient, .close-sheet:hover,
+  .close-product,  .close-ingredient, .close-sheet:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .viewSheet{
+    color: #38ACDF;
+  }
+
+  .sixlist{
+    display: inline-block;
+    margin-top: 4%;
+    text-align: left;
+    font-weight: bold;
+    color: #565555;
+    font-size: 18px;
+    width: 50%;
+  }
+  .ingredient-list{
+    margin-top: 3%;
+    display: inline-block;
+    text-align: left;
+  }
+  .unorderList{
+    margin-left: 5%;
+  }
+  .preview3s{
+    width: 50%;
+  }
+@media only screen and (max-width: 720px) {
+    body{
+        position: relative;
+        width: 100vh;
+    }
+    .nutriswish{
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .nutriswishes{
+        margin: 0;
+        padding: 5%;
+        text-align: left;
+    }
+    .nutri{
+        width: 50%;
+    }
+    .swishes{
+        margin-top: -15%;
+        text-align: center;
+    }
+    .days{
+        text-align: justify;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .but{
+        width: 100%;
+        padding-left: 1%;
+        font-size: 18px;
+    }
+    .butt{
+        margin-left: 15%;
+        padding-top: 9%;
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+    .butn{
+        margin-left: 20%;
+        padding-top: 2%;
+        text-align: center;
+        font-size: 18px;
+        width: 70%;
+    }
+    .third-content{
+        padding-top: 5%;
+        width: 100%;
+    }
+    .ingredient{
+        font-size: 25px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .fourth-content{
+        display: block;
+        text-align: center;
+    }
+    .absorption{
+        font-size: 26px;
+        left: 0;
+    }
+    .technology{
+        font-size: 25px;
+        text-align: justify;
+        width: 91%;
+    }
+    .three{
+        text-align: center;
+        width: 60%;
+        padding-left: 8%;
+    }
+    .product-content{
+      display: block;
+      width: 70%;
+      top: 0;
+    }
+    .ingredients{
+      overflow: auto;
+    }
+    .ingredient-content{
+      display: block;
+      width: 90%;
+      top: 0;
+    }
+    .sheet-content{
+      display: block;
+      width: 80%;
+      top: 0;
+      padding-bottom: 5%;
+    }
+    @-webkit-keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    
+    @keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    .viewSheet{
+      display: block;
+      margin-top: 3%;
+    }
+  }
