@@ -154,18 +154,16 @@
             <a class="viewSheet" href="#">Click Here to View the Product Sheet</a>
         </div>
     </div>
-    <script src="nuemiskin.js"></script>
+    <script src="js/nuemiskin.js"></script>
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);
       
-        // Add this function for auto-play
         function autoPlay() {
           plusSlides(1);
-          setTimeout(autoPlay, 5000); // Adjust the time (in milliseconds) between slides
+          setTimeout(autoPlay, 5000);
         }
       
-        // Start auto-play when the page loads
         window.onload = function() {
           autoPlay();
         }
@@ -193,5 +191,6 @@
           slides[slideIndex - 1].style.display = "block";
           dots[slideIndex - 1].className += " active";
         }
-      </script></body>
+      </script>
+</body>
 </html>
