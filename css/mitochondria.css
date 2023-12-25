@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top: 5%;
+}
+.back{
+    margin-left: 5%;
+    width: 10%;
+}
+.logo-image{
+    margin-left: 10%;
+    width: 40%;
+}
+.banner{
+    margin-top: 1%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    position: absolute;
+}
+.moremito{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.products{
+    text-align: center;
+}
+.mitochon{
+    width: 100%;
+}
+.content{
+    background: #D8D8D8;
+    margin-top: 10%;
+    width: 98%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 1%;
+}
+.people{
+    text-align: center;
+}
+.vitality{
+    font-size: 25px;
+}
+.grid-content{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: auto auto;
+}
+.ultramito{
+    background: #FFFFFF;
+    width: 80%;
+    margin-left: 32%;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 5px;
+    padding-bottom: 5%;
+}
+.ultramitos{
+    background: #FFFFFF;
+    margin-left: 30%;
+    width: 51%;
+    text-align: center;
+    padding-top: 7%;
+    
+}
+.rejuvinate{
+    width: 77%;
+}
+.learn{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+    background: #4169E1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.bottom-content{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.grid-bottom{
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    grid-template-columns: auto auto auto;
+}
+
+
+.mito{
+    color: #FFFFFF;
+    background: #4169E1;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5%;
+} 
+.importance{
+    font-size: 15px;
+}
+.ways{
+    font-size: 16px;
+}
+.role{
+    height: 55px;
+}
+.last-content{
+    margin-top: 5%;
+}
+.conclusion{
+    color: #565555;
+}
+.conclusion-p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 18px;
+    color: #565555;
+}
+.footer{
+    background: #3E3D3D;
+    margin-top: 5%;
+    color: #FFFFFF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.contact{
+    font-size: 25px;
+    font-weight: 100;
+}
+.email{
+    font-size: 21px;
+    font-weight: 100;
+}
+.foundation{
+    font-size: 22px;
+    font-weight: 100;
+}
+.roleMito {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  #role{
+    cursor: pointer;
+  }
+  .role-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.close-role{
+    color: black;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.close-role:hover,
+.close-role:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.role-of-mito{
+    margin-top: 3%;
+}
+.mitoclass{
+    width: 30%;
+}
+.list{
+    display: inline-block;
+    text-align: justify;
+    padding: 5%;
+    color: #000000;
+}
+ul{
+    margin-left: 5%;
+    /* list-style: none; */
+}
+.roler{
+    color: #565555;
+    margin-top: 2%;
+}
+.importanceMito {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  #importance{
+    cursor: pointer;
+  }
+  .importance-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: -10%;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetops;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  @-webkit-keyframes animatetops {
+    from {top:-300px; opacity:0}
+    to {top:-10%; opacity:1}
+  }
+  
+  @keyframes animatetops {
+    from {top:-300px; opacity:0}
+    to {top:-10%; opacity:1}
+  }
+.close-importance{
+    color: black;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.close-importance:hover,
+.close-importance:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.importances{
+    font-size: 22px;
+    margin-top: 2%;
+    color: #565555;
+}
+.supportMito {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  #support{
+    cursor: pointer;
+  }
+  .support-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    padding-bottom: 2%;
+    border: 1px solid #888;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetope;
+    animation-duration: 0.4s;
+    text-align: center;
+  }
+  @-webkit-keyframes animatetope {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetope {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.close-support{
+    color: black;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.close-support:hover,
+.close-support:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.supports{
+    font-size: 22px;
+    margin-top: 2%;
+    color: #565555;
+}
