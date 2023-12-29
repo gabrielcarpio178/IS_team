@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -231,7 +236,11 @@ body{
 }
 
 .footer{
+<<<<<<< HEAD
     background-color: rgb(99, 92, 78);
+=======
+    background-color: #565555;
+>>>>>>> 956786bdc10405709d8d756f154b4b33c5205ae2
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -252,6 +261,13 @@ body{
     color: white;
  }
 
+<<<<<<< HEAD
+=======
+ .content a{
+    text-decoration: none;
+ }
+
+>>>>>>> 956786bdc10405709d8d756f154b4b33c5205ae2
 
 
 @media screen and (min-width: 320px) and (max-width: 1019px) {
