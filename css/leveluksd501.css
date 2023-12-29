@@ -388,7 +388,7 @@ hr{
     margin-top: 6%;
     width: 80%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
     body{
         width: auto;
     }
@@ -441,11 +441,15 @@ hr{
         padding: 10px;
         width: 100%;
     }
+    .enagicModal{
+        display: block;
+        padding: 5%;
+    }
     .power-content{
         width: 95%;
     }
     .enagic-content{
-        width: 100%;
+        width: 50%;
     }
     .powers{
         margin-top: 5%;
@@ -489,5 +493,232 @@ hr{
     }
     .dropdown-arrow2{
         margin: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: auto;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .level{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .leveluk{
+        margin-top: 3%;
+        width: 50%;
+    }
+    .level-two{
+        display: block;
+        width: 100%;
+        padding: 2%;
+    }
+    .leveltwo{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+    .site{
+        margin: 0;
+    }
+    .mighty{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    .kanagen{
+        width: 100%;
+    }
+    .buttonKanagen{
+        width: 100%;
+    }
+    .antiOxidant{
+        padding: 5px;
+        width: 95%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .compact{
+        padding: 10px;
+        width: 100%;
+    }
+    .power-content{
+        width: 95%;
+    }
+    .enagicModal{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 0;
+    }
+    .enagic-modal{
+        margin-top: 5%;
+    }
+    .enagic-content, .lcd-content{
+        width: 40%;
+    }
+    .powers{
+        font-size: 18px;
+    }
+    .mighties{
+        margin-top: 5%;
+        padding-left: 3%;
+        font-size: 16px;
+    }
+    .panel-content{
+        width: 95%;
+    }
+    .plate-content{
+        width: 95%;
+    }
+    .language-content{
+        width: 95%;
+    }
+
+    .products{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .product-image{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .product-list{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 94%;
+        text-align: center;
+    }
+    .platinum, .original, .model, .heavy, .counter{
+        font-size: 30px;
+    }
+    .contact, .info, .worldwide{
+        font-size: 12px;
+    }
+    .dropdown-arrow2{
+        margin: 0;
+    }
+    .platinum-version, .chamber, .models, .family, .sink{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    body{
+        width: auto;
+    }
+    .dunn{
+        font-size: 17px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .level{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .leveluk{
+        margin-top: 3%;
+        width: 50%;
+    }
+    .level-two{
+        display: block;
+        width: 100%;
+        padding: 2%;
+    }
+    .leveltwo{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+    .site{
+        margin: 0;
+    }
+    .mighty{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10%;
+    }
+    .kanagen{
+        width: 100%;
+    }
+    .buttonKanagen{
+        width: 100%;
+    }
+    .antiOxidant{
+        padding: 5px;
+        width: 95%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .compact{
+        padding: 10px;
+        width: 100%;
+    }
+    .power-content{
+        width: 95%;
+    }
+    .enagicModal{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 0;
+    }
+    .enagic-modal{
+        margin-top: 5%;
+    }
+    .powers{
+        font-size: 18px;
+    }
+    .mighties{
+        margin-top: 5%;
+        padding-left: 3%;
+        font-size: 16px;
+    }
+    .panel-content{
+        width: 95%;
+    }
+    .plate-content{
+        width: 95%;
+    }
+    .language-content{
+        width: 95%;
+    }
+
+    .products{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .product-image{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .product-list{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 94%;
+        text-align: center;
+    }
+    .platinum, .original, .model, .heavy, .counter{
+        font-size: 30px;
+    }
+    .contact, .info, .worldwide{
+        font-size: 12px;
+    }
+    .dropdown-arrow2{
+        margin: 0;
+    }
+    .platinum-version, .chamber, .models, .family, .sink{
+        font-size: 25px;
     }
 }
