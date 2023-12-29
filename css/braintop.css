@@ -1,0 +1,197 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+body{
+    font-family: "myFirstFont";
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.tag-line{
+    background-image: url('../image/brain-tap-main.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.tag-line::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: rgb(214,119,89);
+    background: linear-gradient(98deg, rgba(214,119,89,1) 0%, rgba(246,247,250,0) 100%);
+    opacity: .7;
+    z-index: 1;
+}
+.tagline-content{
+    height: 100vh;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 0% 10%;
+    position: relative;
+    gap: 35px;
+}
+.tag-line > div > h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    z-index: 2;
+    width: 40%;
+}
+.tag-line > div > p{
+    z-index: 2;
+    font-size: 1.1rem;
+    width: 45%;
+}
+.tag-line > div > h1 > span{
+    color: #C35029;
+}
+
+.logo-image{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.braintap-content{
+    display: flex;
+    flex-direction: row;
+    background-color: #c34f29b9;
+    position: relative;
+    height: 45vh;
+}
+.braintap-content > p{
+    width: 40%;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    height: 100vh;
+}
+.braintap-content > div {
+    width: 50%;
+    position: absolute;
+}
+.braintap-image{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.braintap-image > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.braintap-image > img, .braintap-image > div> img{
+    border-radius: 10px/10px;
+}
+.key-component{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.key-component > small{
+    color: rgba(0, 0, 0, 0.516);
+}
+.key-component > p{
+    color: #f64d15;
+}
+.components-container{
+    display: grid;
+    margin-top: 100px;
+}
+.components-container > .images-sleep{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.images-sleep > div{
+    display: flex;
+    position: absolute;
+}
+.images-sleep > img{
+    border-radius: 10px/10px;
+}
+.images-sleep > div > img{
+    border-radius: 10px/10px;
+}   
+@media screen and (min-width: 1020px) {
+    header{
+        padding: 1% 2%;
+    }
+    ul{
+        gap: 30px;
+    }
+    .tag-line{
+        height: 90vh;
+    }
+    .tag-line::after {
+        top: 45px;
+        left: 0;
+        height: 92.5%;
+    }
+    .logo-image > img{
+        max-width: 30%;
+    }
+    .braintap-content > p{
+        padding: 20px 0 0 100px;
+    }
+    .braintap-image{
+        height: 55vh;
+    }
+    .braintap-image > img{
+        max-width: 60%;
+    }
+    .braintap-image > div> img{
+        max-width: 75%;
+    }
+    .braintap-content > div {
+        right: 10px;
+        bottom: -30px;
+    }
+    .key-component > small{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .key-component > p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .components-container{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px;
+    }
+    .braintap-headset-img > img{
+        min-width: 100%;
+    }
+    .images-sleep > div{
+        flex-direction: column;
+        gap: 25px;
+        left: 400px;
+        bottom: -10px;
+    }   
+    .images-sleep > img{
+        max-width: 80%;
+    }
+    .images-sleep > div > img{
+        max-width: 80%;
+    }   
+}
+
+

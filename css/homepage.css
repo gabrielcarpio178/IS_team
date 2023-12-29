@@ -274,12 +274,12 @@ body{
     }
 
     .carousel-control-next-icon:after{
-        top: 50%;
+        /* top: 50%; */
         right: -30px;
     }
     
     .carousel-control-prev-icon:after {
-        top: 50%;
+        /* top: 50%; */
         left: -15px;
     }
 
@@ -347,12 +347,12 @@ body{
         width: 65%;
     }
     .carousel-control-next-icon:after{
-        top: 50%;
-        right: -10px;
+        /* top: 50%; */
+        right: -20px;
     }
     
     .carousel-control-prev-icon:after {
-        top: 50%;
+        /* top: 50%; */
         left: -10px;
     }
     .content-sentence{

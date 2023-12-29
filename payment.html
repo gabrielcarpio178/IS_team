@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/payment.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="node_modules/animate/animate.css">
+    <script src="js/payment.js"></script>
     <title>Bussines Services</title>
 </head>
 <body>
@@ -20,11 +21,11 @@
             <button id="get-started-button" onclick="window.location='gettingstarting.html'">Get Started</button>
         </div>
     </div>
-    <div id="features-container">
+    <div id="features-container" class="boxes animate__animated">
         <div class="feature-column" style="cursor: pointer;" onclick="window.location.href='#step'">Steps</div>
         <div class="feature-column" style="cursor: pointer;" onclick="window.location.href='#payment-solutions'">Payment Solution</div>
     </div>
-    <div class="steps-count">
+    <div class="steps-count boxes animate__animated">
         <p>Our 6 Step Easy Process</p>
     </div>
     <div style="display: flex; justify-content: space-around; flex-wrap: wrap;" id="step">
@@ -61,12 +62,12 @@
         </div>
     </div>
 
-    <div id="levels">
+    <div id="levels" class="boxes animate__animated">
         <h2>Our Full Range of Payment Solutions</h2>
         <div class="line"></div>
     </div>
 
-    <div id="payment-solutions">
+    <div id="payment-solutions" class="boxes animate__animated">
         <div class="payment-container">
             <div class="column">
                 <p>Credit and Debit Card Processing</p>
