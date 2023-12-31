@@ -11,16 +11,6 @@
 body{
     font-family: "myFirstFont";
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
 
 .tag-line{
     background-image: url('../image/brain-tap-main.jpg');
@@ -114,13 +104,19 @@ ul{
 .components-container{
     display: grid;
     margin-top: 100px;
+    gap: 30px;
 }
 .components-container > .images-sleep{
     display: flex;
     width: 100%;
     position: relative;
 }
-
+.images-sleep{
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .images-sleep > div{
     display: flex;
     position: absolute;
@@ -130,19 +126,79 @@ ul{
 }
 .images-sleep > div > img{
     border-radius: 10px/10px;
-}   
+}  
+.functionality{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.function{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.function > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.function > div > h2{
+    color: rgba(0, 102, 255, 0.666);
+    white-space: nowrap;
+}
+.function > p{
+    color: rgba(0, 0, 0, 0.516);
+}
+.consideration{
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.686);
+    margin-top: 40px;
+}
+.consi-statement-monther{
+    position: relative;
+}
+.con-image{
+    width: 100%;
+    height: 90vh;
+}
+.con-image > img{
+    width: 100%;
+    height: 60vh;
+}
+
+.consi-statement{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 50px;
+    justify-content: center;
+}
+.individual{
+    background-color: rgba(255, 42, 0, 0.617);
+    padding: 5px 15px;
+    color: #FFFFFF;
+}
+.individual-label{
+    font-size: 1.5rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #565555;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
 @media screen and (min-width: 1020px) {
-    header{
-        padding: 1% 2%;
-    }
-    ul{
-        gap: 30px;
-    }
     .tag-line{
-        height: 90vh;
+        height: 92.3vh;
     }
     .tag-line::after {
-        top: 45px;
+        top: 0;
         left: 0;
         height: 92.5%;
     }
@@ -184,14 +240,28 @@ ul{
         flex-direction: column;
         gap: 25px;
         left: 400px;
-        bottom: -10px;
+        bottom: 60px;
     }   
     .images-sleep > img{
-        max-width: 80%;
+        width: 100%;
+        height: 40vh;
     }
     .images-sleep > div > img{
         max-width: 80%;
     }   
+    .consi-statement{
+        bottom: 90px;
+    }
+    .individual{
+        width: 40%;
+    }
+    .individual > h3{
+        font-size: 1.5rem;
+    }
+    .individual > p{
+        font-size: 1.1rem;
+        margin-top: 40px;
+    }
 }
 
 
