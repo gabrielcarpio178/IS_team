@@ -148,6 +148,7 @@ body{
 }
 .function > p{
     color: rgba(0, 0, 0, 0.516);
+    padding-left: 50px;
 }
 .consideration{
     text-align: center;
