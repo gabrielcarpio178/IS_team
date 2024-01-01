@@ -166,10 +166,16 @@ body{
     height: 95vh;
     padding: 10px 30px;
 }
-.c-item > img{
+.c-item > img:not(.more_moto_image){
     max-width: 250px;
     height: 15rem;
     align-self: center;
+}
+.c-item > .more_moto_image{
+    max-width: 250px;
+    height: 6rem;
+    align-self: center;
+    margin: 12%;
 }
 .neumi{
     border-radius: 10px/10px;
