@@ -52,16 +52,19 @@ var powerModal = document.getElementById("myPower");
 var panelModal = document.getElementById("myPanel");
 var plateModal = document.getElementById("myPlate");
 var languageModal = document.getElementById("myLanguage");
+var signinModal = document.getElementById("sign_in");
 
 var powerBtn = document.getElementById("power");
 var panelBtn = document.getElementById("panel");
 var plateBtn = document.getElementById("plate");
 var languageBtn = document.getElementById("language");
+var signinBtn = document.getElementById("btn_sign");
 
 var powerClose = document.getElementsByClassName("close-power")[0];
 var panelClose = document.getElementsByClassName("close-panel")[0];
 var plateClose = document.getElementsByClassName("close-plate")[0];
 var languageClose = document.getElementsByClassName("close-language")[0];
+var btn_signClose = document.getElementsByClassName("close-signin")[0];
 
 powerBtn.onclick = function() {
     powerModal.style.display = "block";
@@ -74,6 +77,9 @@ plateBtn.onclick = function() {
 }
 languageBtn.onclick = function() {
     languageModal.style.display = "block";
+}
+signinBtn.onclick = function() {
+    signinModal.style.display = "block";
 }
 
 powerClose.onclick = function() {
@@ -88,6 +94,9 @@ plateClose.onclick = function() {
 languageClose.onclick = function() {
     languageModal.style.display = "none";
 }
+btn_signClose.onclick = function() {
+    signinModal.style.display = "none";
+}
 
 window.onclick = function(event) {
     if (event.target == powerModal) {
@@ -101,5 +110,8 @@ window.onclick = function(event) {
     }
     if (event.target == languageModal) {
         languageModal.style.display = "none";
+    }
+    if (event.target == signinModal) {
+        signinModal .style.display = "none";
     }
 }

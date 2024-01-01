@@ -291,7 +291,7 @@ hr{
     margin-top: 2%;
     font-size: 20px;
 }
-.power, .panel, .plates, .language {
+.power, .panel, .plates, .language, .sign-in {
     display: none;
     position: fixed;
     z-index: 1;
@@ -304,7 +304,7 @@ hr{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
-.power-content, .panel-content, .plate-content, .language-content{
+.power-content, .panel-content, .plate-content, .language-content, .sign-in-content{
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -330,13 +330,14 @@ hr{
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
-.close-power, .close-panel, .close-plate, .close-language{
+.close-power, .close-panel, .close-plate, .close-language, .close-signin{
     color: black;
     float: right;
     font-size: 35px;
     font-weight: bold;
     margin-right: 3%;
     margin-top: 2%;
+    cursor: pointer;
 }
 .close-power, .close-panel, .close-plate, .close-language:hover,
 .close-power, .close-panel, .close-plate, .close-language:focus {
@@ -374,7 +375,48 @@ hr{
     margin-top: 6%;
     width: 80%;
 }
-
+.addproduct-btn{
+    padding: 2% 0;
+}
+.addproduct-btn > button{
+    padding: 5px 15px;
+    background-color: rgb(119, 6, 119);
+    border-radius: 10px/10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    height: 5vh;
+    transition: transform 0.2s ease-in;
+}
+.addproduct-btn > button:hover{
+    transform: scale(1.1);
+}
+.sign-in-content > form{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 6% 1% 6%;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+form > input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem; 
+    text-align: center;
+    padding: 10px 0;
+}
+form > button{
+    width: 30%;
+    align-self: center;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #4169E1;
+    color: #FFFFFF;
+    border-radius: 5px/5px;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 620px) {
     body{

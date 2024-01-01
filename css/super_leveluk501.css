@@ -113,7 +113,7 @@ header{
 }
 .dropdown-arrow{
     width: 5%;
-    margin-left: 85%;
+    margin-left: 2%;
 }
 .myLinks {
     margin-top: 3%;
@@ -140,7 +140,7 @@ header{
 
 .dropdown-arrow2 {
     width: 5%;
-    margin-left: 52%;
+    margin-left: 2%;
 }
 
 .feature {
@@ -290,7 +290,7 @@ hr{
     margin-top: 2%;
     font-size: 20px;
 }
-.power, .panel, .plates, .language {
+.power, .panel, .plates, .language, .sign-in {
     display: none;
     position: fixed;
     z-index: 1;
@@ -303,7 +303,7 @@ hr{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
 }
-.power-content, .panel-content, .plate-content, .language-content{
+.power-content, .panel-content, .plate-content, .language-content, .sign-in-content{
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -329,13 +329,14 @@ hr{
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
-.close-power, .close-panel, .close-plate, .close-language{
+.close-power, .close-panel, .close-plate, .close-language, .close-signin{
     color: black;
     float: right;
     font-size: 35px;
     font-weight: bold;
     margin-right: 3%;
     margin-top: 2%;
+    cursor: pointer;
 }
 .close-power, .close-panel, .close-plate, .close-language:hover,
 .close-power, .close-panel, .close-plate, .close-language:focus {
@@ -374,15 +375,275 @@ hr{
     width: 80%;
 }
 
-@media only screen and (max-width: 760px) {
+.addproduct-btn{
+    padding: 2% 0;
+}
+.addproduct-btn > button{
+    padding: 5px 15px;
+    background-color: rgb(119, 6, 119);
+    border-radius: 10px/10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    height: 5vh;
+    transition: transform 0.2s ease-in;
+}
+.addproduct-btn > button:hover{
+    transform: scale(1.1);
+}
+.sign-in-content > form{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 6% 1% 6%;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+form > input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.5rem; 
+    text-align: center;
+    padding: 10px 0;
+}
+form > button{
+    width: 30%;
+    align-self: center;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #4169E1;
+    color: #FFFFFF;
+    border-radius: 5px/5px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 620px) {
     body{
         width: auto;
     }
     .dunn{
-        font-size: 12px;
+        margin-top: 2%;
+        font-size: 10px;
     }
     .btn{
+        font-size: 10px;
+    }
+    .level{
+        margin: 0;
+        text-align: center;
+    }
+    .leveluk{
+        width: 50%;
+    }
+    .level-two{
+        display: block;
+    }
+    .imageText{
+        margin-top: 5%;
+    }
+    .mighty{
+        text-align: center;
+        font-size: 22px;
+    }
+    .kanagen{
+        margin-top: 4%;
+        width: 96%;
+        margin-left: 2%;
+        font-size: 18px;
+    }
+    .buttonKanagen{
+        width: 100%;
+    }
+    .antiOxidant{
+        padding: 5px;
+        width: 95%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .compact{
+        padding: 10px;
+        width: 100%;
+    }
+    .power-content{
+        width: 95%;
+    }
+    .enagicModal{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 0;
+    }
+    .enagic-modal{
+        margin-top: 5%;
+    }
+    .enagic-content, .lcd-content{
+        width: 40%;
+    }
+    .powers{
+        font-size: 18px;
+    }
+    .mighties{
+        margin-top: 5%;
+        padding-left: 3%;
+        font-size: 16px;
+    }
+    .panel-content{
+        width: 95%;
+    }
+    .plate-content{
+        width: 95%;
+    }
+    .language-content{
+        width: 95%;
+    }
+
+    .products{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .product-image{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .product-list{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 94%;
+        text-align: center;
+    }
+    .platinum, .original, .model, .heavy, .counter{
+        font-size: 30px;
+    }
+    .contact, .info, .worldwide{
         font-size: 12px;
+    }
+    .dropdown-arrow2{
+        margin: 0;
+    }
+    .platinum-version, .chamber, .models, .family, .sink{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 320) {
+    body{
+        width: auto;
+    }
+    .dunn{
+        margin-top: 2%;
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .level{
+        margin: 0;
+        text-align: center;
+    }
+    .leveluk{
+        width: 50%;
+    }
+    .level-two{
+        display: block;
+    }
+    .imageText{
+        margin-top: 5%;
+    }
+    .mighty{
+        text-align: center;
+        font-size: 22px;
+    }
+    .kanagen{
+        margin-top: 4%;
+        width: 96%;
+        margin-left: 2%;
+        font-size: 18px;
+    }
+    .buttonKanagen{
+        width: 100%;
+    }
+    .antiOxidant{
+        padding: 5px;
+        width: 95%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .compact{
+        padding: 10px;
+        width: 100%;
+    }
+    .power-content{
+        width: 95%;
+    }
+    .enagicModal{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 0;
+    }
+    .enagic-modal{
+        margin-top: 5%;
+    }
+    .enagic-content, .lcd-content{
+        width: 40%;
+    }
+    .powers{
+        font-size: 18px;
+    }
+    .mighties{
+        margin-top: 5%;
+        padding-left: 3%;
+        font-size: 16px;
+    }
+    .panel-content{
+        width: 95%;
+    }
+    .plate-content{
+        width: 95%;
+    }
+    .language-content{
+        width: 95%;
+    }
+
+    .products{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .product-image{
+        width: 80%;
+        margin-top: 2%;
+    }
+    .product-list{
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 94%;
+        text-align: center;
+    }
+    .platinum, .original, .model, .heavy, .counter{
+        font-size: 30px;
+    }
+    .contact, .info, .worldwide{
+        font-size: 12px;
+    }
+    .dropdown-arrow2{
+        margin: 0;
+    }
+    .platinum-version, .chamber, .models, .family, .sink{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    body{
+        width: auto;
+    }
+    .dunn{
+        font-size: 17px;
+    }
+    .btn{
+        font-size: 13px;
     }
     .level{
         width: 100%;
@@ -430,17 +691,23 @@ hr{
     .power-content{
         width: 95%;
     }
-    .enagic-content{
-        width: 100%;
+    .enagicModal{
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        margin-top: 0;
+    }
+    .enagic-modal{
+        margin-top: 5%;
     }
     .powers{
-        margin-top: 5%;
-        padding-left: 2%;
         font-size: 18px;
     }
     .mighties{
-        font-size: 15px;
+        margin-top: 5%;
         padding-left: 3%;
+        font-size: 16px;
     }
     .panel-content{
         width: 95%;
@@ -468,12 +735,15 @@ hr{
         text-align: center;
     }
     .platinum, .original, .model, .heavy, .counter{
-        font-size: 18px;
+        font-size: 30px;
     }
     .contact, .info, .worldwide{
         font-size: 12px;
     }
     .dropdown-arrow2{
         margin: 0;
+    }
+    .platinum-version, .chamber, .models, .family, .sink{
+        font-size: 25px;
     }
 }
