@@ -347,10 +347,10 @@ hr{
   .preview3s{
     width: 50%;
   }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 760px) {
     body{
         position: relative;
-        width: 100vh;
+        width: 90vh;
     }
     .nutriswish{
         display: block;
@@ -389,6 +389,124 @@ hr{
     }
     .butn{
         margin-left: 20%;
+        padding-top: 2%;
+        text-align: center;
+        font-size: 18px;
+        width: 70%;
+    }
+    .third-content{
+        padding-top: 5%;
+        width: 100%;
+    }
+    .ingredient{
+        font-size: 25px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .fourth-content{
+        display: block;
+        text-align: center;
+    }
+    .absorption{
+        font-size: 26px;
+        left: 0;
+    }
+    .technology{
+        font-size: 25px;
+        text-align: justify;
+        width: 91%;
+    }
+    .three{
+        text-align: center;
+        width: 60%;
+        padding-left: 8%;
+    }
+    .product-content{
+      display: block;
+      width: 70%;
+      top: 0;
+    }
+    .ingredients{
+      overflow: auto;
+    }
+    .ingredient-content{
+      display: block;
+      width: 90%;
+      top: 0;
+    }
+    .sheet-content{
+      display: block;
+      width: 80%;
+      top: 0;
+      padding-bottom: 5%;
+    }
+    @-webkit-keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    
+    @keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    .viewSheet{
+      display: block;
+      margin-top: 3%;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    body{
+        position: relative;
+        width: 50vh;
+    }
+    .nutriswish{
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .nutriswishes{
+        margin: 0;
+        padding: 5%;
+        text-align: left;
+    }
+    .nutri{
+        width: 50%;
+    }
+    .swishes{
+        margin-top: -15%;
+        text-align: center;
+    }
+    .days{
+        text-align: justify;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .but{
+        width: 100%;
+        padding-left: 1%;
+        font-size: 18px;
+    }
+    .butt{
+        margin-left: 3%;
+        padding-top: 9%;
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+    .butn{
+        margin-left: 10%;
         padding-top: 2%;
         text-align: center;
         font-size: 18px;
