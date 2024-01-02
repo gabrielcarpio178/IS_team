@@ -468,7 +468,7 @@ hr{
   @media only screen and (max-width: 600px) {
     body{
         position: relative;
-        width: 60vh;
+        width: 50vh;
     }
     .nutriswish{
         display: block;
