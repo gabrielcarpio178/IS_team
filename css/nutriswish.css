@@ -465,10 +465,10 @@ hr{
     }
   }
 
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 600px) {
     body{
         position: relative;
-        width: 50vh;
+        width: 60vh;
     }
     .nutriswish{
         display: block;
@@ -489,9 +489,10 @@ hr{
     }
     .days{
         text-align: justify;
+        
     }
     .buttons{
-        width: 100%;
+        width: 40%;
     }
     .but{
         width: 100%;
