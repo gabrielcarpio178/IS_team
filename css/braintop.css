@@ -195,7 +195,7 @@ footer{
     padding: 20px 0;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 400px) {
     .logo-image img{
         width: 50%;
     }
@@ -207,7 +207,7 @@ footer{
     }
     .braintap-content{
         padding: 5px;
-        height: auto;
+        height: fit-content;
         padding-bottom: 10px;
         padding-top: 10px;
     }
@@ -270,23 +270,103 @@ footer{
     }
 } 
 
+@media screen and (min-width: 400px){
+    .logo-image img{
+        width: 50%;
+    }
+    .braintap-image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 55%;
+        margin-top: 2%;
+    }
+    .braintap-content{
+        padding: 5px;
+        height: fit-content;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .braintap-content p{
+        margin-left: 8%;
+        font-size: 15px;
+        width: 35%;
+        height: fit-content;
+    }
+    .braintap-image img{
+        width: 50%;
+    }
+    .braintap-subimage img{
+        width: 50%;
+    }
+    .key-component{
+        margin-top: 3%;
+    }
+    .braintap-headset-img img{
+        width: 89%;
+    }
+    .functionality{
+        width: 100%;
+    }
+    .function h2{
+        font-size: 13px;
+    }
+    .images-sleep img{
+        width: 105%;
+    }
+    .images-sleep > div{
+        flex-direction: column;
+        gap: 25px;
+        left: 100px;
+        bottom: 27px;
+    }
+    .images-sleep-subimage{
+        width: 27%;
+        margin-left: 27%;
+    }
+    .con-image img{
+        width: 100%;
+        height: auto;
+    }
+    .consi-statement{
+        top: 20vh;
+        gap: 8%;
+        width: 80%;
+        height: fit-content;
+        margin-left: 10%;
+    }
+    .footer{
+        text-align: center;
+        margin-top: 12vh;
+        font-size: small;
+    }
+    .con-image{
+        width: 100%;
+        height: 60vh;
+    }   
+}
+
 @media screen and (min-width: 760px){
+    .braintap-content{
+        height: fit-content;
+    }
     .braintap-image{
         display: flex;
         flex-direction: row;
         width: fit-content;
         margin-left: 45%;
-        margin-top: 3%;
+        align-items: center;
     }
     .braintap-content p{
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 2vh;
+        width: 35%;
+        height: fit-content;
     }
     .braintap-image img{
-        width: 70%;
+        width: 60%;
     }
     .braintap-subimage img{
-        width: 130%;
+        width: 100%;
     }
     .consi-statement{
         bottom: 10px;
@@ -304,7 +384,46 @@ footer{
     }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 900px) {
+    .braintap-content{
+        height: fit-content;
+    }
+    .braintap-image{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        margin-left: 45%;
+        align-items: center;
+    }
+    .braintap-content p{
+        font-size: 20px;
+        margin-top: 2vh;
+        width: 30%;
+        height: fit-content;
+    }
+    .braintap-image img{
+        width: 60%;
+    }
+    .braintap-subimage img{
+        width: 100%;
+    }
+    .consi-statement{
+        bottom: 10px;
+        margin-top: 20vh;
+        height: fit-content;
+    }
+    .images-sleep > div{
+        flex-direction: column;
+        gap: 25px;
+        left: 100px;
+        bottom: 60px;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 2000px) {
     .tag-line{
         height: 92.3vh;
     }
@@ -317,14 +436,18 @@ footer{
         max-width: 30%;
     }
     .braintap-content{
-        height: 50vh;
+        height: 55vh;
     }
     .braintap-content > p{
-        padding: 20px 0 0 100px;
+        padding: 40px 0 0 100px;
         font-size: larger;
+        margin-left: 0%;
+        width: 40%;
+        height: fit-content;
     }
     .braintap-image{
-        height: 55vh;
+        height: 60vh;
+        top: -50px;
     }
     .braintap-image > img{
         max-width: 60%;
@@ -369,7 +492,7 @@ footer{
     }
     .images-sleep-subimage{
         width: 34%;
-        margin-left: 0%;
+        margin-left: -10%;
     }   
     .consi-statement{
         bottom: 20px;
@@ -394,5 +517,3 @@ footer{
         text-align: center;
     }
 }
-
-
