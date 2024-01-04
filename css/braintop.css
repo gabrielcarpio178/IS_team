@@ -194,6 +194,104 @@ footer{
     color: #FFFFFF;
     padding: 20px 0;
 }
+
+@media screen and (min-width: 320px) {
+    .logo-image img{
+        width: 50%;
+    }
+    .braintap-image{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        margin-left: 45%;
+        margin-top: 30%;
+    }
+    .braintap-content p{
+        font-size: 15px;
+        margin-top: 2vh;
+    }
+    .braintap-image img{
+        width: 70%;
+    }
+    .braintap-subimage img{
+        width: 130%;
+    }
+    .key-component{
+        margin-top: 3%;
+    }
+    .braintap-headset-img img{
+        width: 89%;
+    }
+    .functionality{
+        width: 100%;
+    }
+    .function h2{
+        font-size: 13px;
+    }
+    .images-sleep img{
+        width: 105%;
+    }
+    .images-sleep > div{
+        flex-direction: column;
+        gap: 25px;
+        left: 100px;
+        bottom: 27px;
+    }
+    .images-sleep-subimage{
+        width: 27%;
+        margin-left: 27%;
+    }
+    .con-image img{
+        width: 100%;
+        height: auto;
+    }
+    .consi-statement{
+        top: 18vh;
+        width: 95%;
+    }
+    .footer{
+        text-align: center;
+        margin-top: 1vh;
+    }
+    .con-image{
+        width: 100%;
+        height: 60vh;
+    }
+} 
+
+@media screen and (min-width: 760px){
+    .braintap-image{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        margin-left: 45%;
+        margin-top: 3%;
+    }
+    .braintap-content p{
+        font-size: 15px;
+        margin-top: 2vh;
+    }
+    .braintap-image img{
+        width: 70%;
+    }
+    .braintap-subimage img{
+        width: 130%;
+    }
+    .consi-statement{
+        bottom: 10px;
+        margin-top: 20vh;
+    }
+    .images-sleep > div{
+        flex-direction: column;
+        gap: 25px;
+        left: 100px;
+        bottom: 60px;
+    }
+    .footer{
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 1020px) {
     .tag-line{
         height: 92.3vh;
@@ -208,6 +306,7 @@ footer{
     }
     .braintap-content > p{
         padding: 20px 0 0 100px;
+        font-size: larger;
     }
     .braintap-image{
         height: 55vh;
@@ -217,6 +316,9 @@ footer{
     }
     .braintap-image > div> img{
         max-width: 75%;
+    }
+    .key-component{
+        margin-top: 7%;
     }
     .braintap-content > div {
         right: 10px;
@@ -249,9 +351,14 @@ footer{
     }
     .images-sleep > div > img{
         max-width: 80%;
+    }
+    .images-sleep-subimage{
+        width: 34%;
+        margin-left: 0%;
     }   
     .consi-statement{
-        bottom: 90px;
+        bottom: 20px;
+        margin-top: 50vh;
     }
     .individual{
         width: 40%;
@@ -262,6 +369,13 @@ footer{
     .individual > p{
         font-size: 1.1rem;
         margin-top: 40px;
+    }
+    .con-image{
+        width: 100%;
+        height: 90vh;
+    }
+    .footer{
+        text-align: center;
     }
 }
 
