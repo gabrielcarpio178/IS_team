@@ -423,7 +423,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 760px){
     body{
         width: 100%;
     }
@@ -563,4 +563,146 @@ img {vertical-align: middle;}
         display: block;
         margin-top: 3%;
       }
+}
+
+@media screen and (max-width: 600px){
+  body{
+      width: 100%;
+  }
+  .container{
+      display: block;
+      text-align: center;
+      width: auto;
+  }
+  .first{
+      display: grid;
+      width: 100%;
+  }
+  .image{
+      display: block;
+  }
+  .arrow{
+      text-align: left;
+      margin-top: 12%;
+  }
+  .neumi{
+      padding-top: 3%;
+      text-align: center;
+  }
+  .second{
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+  }
+  .neumiskinlogo{
+      width: 80%;
+      text-align: center;
+  }
+  .neumiskintext{
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+  }
+  .skinText{
+      text-align: justify;
+      font-size: 23px;
+  }
+  .button{
+      transform: translate(0, 20%);
+  }
+  .buttons{
+      padding-bottom: 1px;
+  }
+  .third{
+      margin-top: 13%;
+      text-align: center;
+  }
+  .keyImage{
+      width: 80%;
+  }
+  .keys{
+      margin-top: 30px;
+      font-size: 15px;
+  }
+  .textKeys{
+      font-size: 13px;
+      width: 140%;
+  }
+  .textKeys{
+      margin-left: -20%;
+  }
+  .fourth{
+      display: block;
+      text-align: center;
+      width: 100%;
+
+  }
+  .superiors{
+      text-align: left;
+  }
+  .superior{
+      font-size: 18px;
+      padding: 0;
+      text-align: center;
+      font-weight: 600;
+  }
+  .proprietary{
+      text-align: center;
+      padding: 4%;
+      margin: 0% 0 0 0;
+      width: 100%;
+      text-align: justify;
+      font-size: 15px;
+  }
+  .neumimage{
+      text-align: center;
+      width: 70%;
+      height: 50%;
+  }
+  .superiorsLogo{
+      text-align: center;
+  }
+  .product-content{
+      display: block;
+      width: 95%;
+      top: 0;
+      padding-bottom: 5%;
+    }
+    .ingredients-list{
+      overflow: auto;
+    }
+    .ingredient-content{
+      display: block;
+      width: 90%;
+      top: 0;
+    }
+    .sheet-content{
+      display: block;
+      width: 80%;
+      top: 0;
+      padding-bottom: 5%;
+    }
+    @-webkit-keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    
+    @keyframes animatetops {
+      from {top:-300px; opacity:0}
+      to {top:0%; opacity:1}
+    }
+    @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    
+    @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+    }
+    .viewSheet{
+      display: block;
+      margin-top: 3%;
+    }
 }
