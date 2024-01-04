@@ -496,7 +496,7 @@ footer{
     }   
     .consi-statement{
         bottom: 20px;
-        margin-top: 50vh;
+        margin-top: 40vh;
         height: fit-content;
     }
     .individual{
@@ -513,7 +513,8 @@ footer{
         width: 100%;
         height: 90vh;
     }
-    .footer{
+    footer{
         text-align: center;
+        margin-top: 30px;
     }
 }

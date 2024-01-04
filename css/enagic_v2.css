@@ -155,6 +155,9 @@ footer{
 .powers > p{
     font-size: 1.3rem;
 }
+@media screen and (min-width: 320px) {
+    
+}
 @media screen and (min-width: 1020px) {
     .content-info{
         flex-direction: row;
