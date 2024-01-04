@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.container-nutriswish{
+    position: absolute;
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}
+.head{
+    margin-left: 2%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 60% auto auto auto auto;
+}
+.btn{
+    font-size: 18px;
+    background: none;
+    border: none;
+}
+.content{
+    margin-top: 3%;
+}
+.footer{
+    background: #565555;
+    text-align: center;
+    padding: 5%;
+}
+.info{
+    font-size: 25px;
+    line-height: 2;
+    font-weight: 500;
+}
+.w3-animate-right{
+    position: relative;
+    animation: animateright 0.4s
+}
+@keyframes animateright{
+    from{
+        right:-300px;
+        opacity:0
+}
+    to{
+        right:0;
+        opacity:1
+    }
+}
+.prev, .next{
+    position: absolute;
+    font-size: 25px;
+    margin: 1%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    right: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.image{
+    width: 30%;
+}
+.below-content{
+    margin-top: 20%;
+    text-align: center;
+}
+.slide{
+    width: 70%;
+    display: flex;
+    overflow-x: hidden;
+}
+.slide div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    flex: none;
+}
+.slide div .image-gluta{
+    width: 50%;
+}
+.image-mito{
+    width: 100%;
+    margin-top: 18%;
+}
+.image-enagic{
+    margin-top: 5%;
+    width: 100%;
+}
+.image-sanza{
+    margin-top: -10%;
+    width: 50%;
+}
+.image-braintap{
+    width: 50%;
+}
+span{
+    margin-left: 5%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+.slide::-webkit-scrollbar{
+    display: none;
+}
+.slide-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#backBtn, #nextBtn{
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 40px;
+}
+span:hover{
+    filter: grayscale(0);
+    cursor: default;
+    transform: scale(1.1);
+}
+.gluta, .mito, .enagic, .braintap{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.sanza{
+    font-size: 20px;
+    margin-top: -7%;
+}
+.part1, .part2, .part3, .part4, .part5{
+    width: 90%;
+    border: 1px solid;
+    padding: 5%;
+    text-align: center;
+}
+.defense, .maintaining, .enag, .device{
+    margin-top: 10%;
+    text-align: justify;
+}
+.sanze{
+    margin-top: 10%;
+    text-align: justify;
+}
+.featured{
+    font-size: 50px;
+    font-weight: 500;
+}
+.learn{
+    padding: 2%;
+    color: blue;
+    border: 1px solid;
+    border-color: blue;
+    cursor: pointer;
+}
+.gluta-learn{
+    margin-top: 20%;
+}
+.mito-learn{
+    margin-top: 6%;
+}
+.enagic-learn{
+    margin-top: 19%;
+}
+.sanza-learn{
+    margin-top: 17%;
+}
+.braintap-learn{
+    margin-top: 15%;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: auto;
+    }
+    .d2p{
+        font-size: 18px;
+    }
+    .head{
+        display: grid;
+        grid-template-columns: 35% auto auto auto auto  ;
+    }
+    .slide{
+        width: 60%;
+        overflow-x: hidden;
+    }
+    .info{
+        font-size: 10px;
+    }
+    #backBtn, #nextBtn{
+        font-size: 20px;
+    }
+    .gluta{
+        font-size: 10px;
+    }
+    .defense{
+        font-size: 15px;
+    }
+}

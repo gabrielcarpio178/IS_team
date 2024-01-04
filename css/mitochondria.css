@@ -214,7 +214,7 @@ header{
     padding-bottom: 3%;
     text-align: center;
 }
-.contact{
+/* .contact{
     font-size: 25px;
     font-weight: 100;
 }
@@ -225,6 +225,10 @@ header{
 .foundation{
     font-size: 22px;
     font-weight: 100;
+} */
+.info{
+    font-size: 25px;
+    font-weight: 500;
 }
 .roleMito {
     display: none;
@@ -423,4 +427,232 @@ ul{
     font-size: 22px;
     margin-top: 2%;
     color: #565555;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: auto;
+    }
+    .d2p{
+        display: grid;
+        grid-template-columns: 40% auto auto auto auto;
+    }
+    .foundationD2P{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 16px;
+        margin: 0;
+    }
+    .products{
+        font-size: 18px;
+    }
+    .extreme{
+        display: block;
+    }
+    .experience{
+        display: block;
+    }
+    .have{
+        padding: 15%;
+    }
+    .people-health{
+        font-size: 25px;
+    }
+    .vitality{
+        font-size: 22px;
+    }
+    .grid-content{
+        display: block;
+        text-align: center;
+    }
+    .ultramito, .ultramitos{
+        margin: 0;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .list-question{
+        font-size: 15px;
+    }
+    .any{
+        font-size: 18px;
+    }
+    .grid-bottom{
+        margin: 0;
+        width: 100%;
+    }
+    .mito{
+        height: 100%;
+        padding: 5%;
+    }
+    .foot{
+        padding: 5%;
+    }
+    .info{
+        font-size: 12px;
+    }
+    .role-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .importance-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .support-content{
+        width: 90%;
+        overflow: auto;
+    }
+}
+@media only screen and (max-width: 720px) {
+    body{
+        width: auto;
+    }
+    .d2p{
+        display: grid;
+        grid-template-columns: 40% auto auto auto auto;
+    }
+    .foundationD2P{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 16px;
+        margin: 0;
+    }
+    .products{
+        font-size: 18px;
+    }
+    .extreme{
+        display: block;
+    }
+    .experience{
+        display: block;
+    }
+    .have{
+        padding: 15%;
+    }
+    .people-health{
+        font-size: 25px;
+    }
+    .vitality{
+        font-size: 22px;
+    }
+    .grid-content{
+        display: block;
+        text-align: center;
+    }
+    .ultramito, .ultramitos{
+        margin: 0;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .list-question{
+        font-size: 15px;
+    }
+    .any{
+        font-size: 18px;
+    }
+    .grid-bottom{
+        margin: 0;
+        width: 100%;
+    }
+    .mito{
+        height: 100%;
+        padding: 5%;
+    }
+    .foot{
+        padding: 5%;
+    }
+    .info{
+        font-size: 12px;
+    }
+    .role-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .importance-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .support-content{
+        width: 90%;
+        overflow: auto;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    body{
+        width: auto;
+    }
+    .d2p{
+        display: grid;
+        grid-template-columns: 40% auto auto auto auto;
+    }
+    .foundationD2P{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 16px;
+        margin: 0;
+    }
+    .products{
+        font-size: 18px;
+    }
+    .extreme{
+        display: block;
+    }
+    .experience{
+        display: block;
+    }
+    .have{
+        padding: 15%;
+    }
+    .people-health{
+        font-size: 25px;
+    }
+    .vitality{
+        font-size: 22px;
+    }
+    .grid-content{
+        display: block;
+        text-align: center;
+    }
+    .ultramito, .ultramitos{
+        margin: 0;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .list-question{
+        font-size: 15px;
+    }
+    .any{
+        font-size: 18px;
+    }
+    .grid-bottom{
+        margin: 0;
+        width: 100%;
+    }
+    .mito{
+        height: 100%;
+        padding: 5%;
+    }
+    .foot{
+        padding: 5%;
+    }
+    .info{
+        font-size: 11px;
+    }
+    .role-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .importance-content{
+        width: 90%;
+        overflow: auto;
+    }
+    .support-content{
+        width: 90%;
+        overflow: auto;
+    }
 }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/personal.css">
+    <title>NUTRISWISH</title>
+</head>
+<body>
+    <div class="container-nutriswish">
+        <nav>
+            <div class="head">
+                <div class="icon">
+                    <h1 class="d2p">D2P Foundation</h1>
+                </div>
+                <div class="icon">
+                    <button class="btn" onclick="window,location='index.html'">Home</button>
+                </div>
+                <div class="icon">
+                    <button class="btn" onclick="window.location='aboutus_info.html'">About us</button>
+                </div>
+                <div class="icon">
+                    <button class="btn" onclick="window.location='payment.html'">Business</button>
+                </div>
+                <div class="icon">
+                    <button class="btn">Personal</button>
+                <div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="body-content">
+                <img class="mySlides w3-animate-right" src="image/Group 14.png" style="width:100%">
+                <img class="mySlides w3-animate-right" src="image/2020-09-22.jpg" style="width:100%">
+                <img class="mySlides w3-animate-right" src="image/1_uDm-srxacz2imv63dKzkwg.jpg" style="width:100%">
+                <img class="mySlides w3-animate-right" src="image/slideshow-img-01.jpg" style="width:100%">
+                <button class="prev" onclick="plusSlides(-1)">❮ PREV</button>
+                <button class="next" onclick="plusSlides(1)">NEXT ❯</button>
+            </div>
+        </div>
+        <div class="below-content">
+            <h1 class="featured">Featured Science</h1>
+            <div class="slide-wrap">
+                <button id="backBtn">❮</button>
+                <div class="slide">
+                    <div>
+                        <span  class="part1"><img class="image-gluta" src="image/neumi.png">
+                                <h1 class="gluta">GLUTATHIONE</h1>
+                            <p class="defense">Antioxidant Defense: Glutathione serves as a powerful antioxidant, protecting cells from oxidative stress caused by free radicals...</p>
+                            <button class="learn gluta-learn" onclick="window.location='gluta_info.html'">Learn More</button>
+                        </span>
+                        <span class="part2"><img class="image-mito" src="image/mito.png">
+                        <h1 class="mito">MITOCHONDRIA</h1>
+                        <p class="maintaining">
+                            Maintaining good health in the workplace is crucial for both employees and employers. A healthy workforce is not just a benefit; it's a necessity for a thriving business. Here's why:
+                        </p>
+                        <button class="learn mito-learn" onclick="window.location='mitochondria_info.html'">Learn More</button>
+                        </span>
+                        <span class="part3"><img class="image-enagic" src="image/enagic.png">
+                        <h1 class="enagic">ENAGIC</h1>
+                        <p class="enag">
+                            The Sanze PEMF (Pulsed Electromagnetic Field) system by Santerra is a device that utilizes electromagnetic fields for therapeutic purposes.
+                        </p>
+                        <button class="learn enagic-learn" onclick="window.location='enagic.html'">Learn More</button>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="part4">
+                            <img class="image-sanza" src="image/sanza.png">
+                            <h1 class="sanza">SANZA</h1>
+                            <p class="sanze ">The Sanze PEMF (Pulsed Electromagnetic Field) system by Santerra is a device that utilizes electromagnetic fields for therapeutic purposes.</p>
+                            <button class="learn sanza-learn" onclick="window.location='sanza.html'">Learn More</button>
+                        </span>
+                        <span class="part5">
+                            <img class="image-braintap" src="image/brain-tap.png">
+                            <h1 class="braintap">BRAIN-TOP</h1>
+                            <p class="device">The BrainTap device is a wearable headset designed to facilitate relaxation, meditation, and mental wellness by combining audio technology, light therapy, and guided visualization.
+                            </p>
+                            <button class="learn braintap-learn" onclick="window.location='braintop_info.html'">Learn More</button>
+                        </span>
+                  </div>
+                </div>
+                <button id="nextBtn">❯</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact">
+                <h1 class="info">Contact us</h1>
+                <h1 class="info"> info@idunntoperfectionfoundation.org</h1>
+                <h1 class="info">Dunn to Perfection Foundation - Empowering Entrepreneurs World Wide!</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+
+        function plusSlides(n) {
+            showSlides(myIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                myIndex = 1
+            }
+            if (n < 1) {
+                myIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[myIndex - 1].style.display = "block";
+        }
+
+        let scrollContainer = document.querySelector(".slide");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+
+        scrollContainer.addEventListener("wheel", (evt)  => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+            scrollContainer.style.scrollBehavior = "auto";
+        });
+
+        nextBtn.addEventListener("click", ()=>{
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft += 1000;
+        });
+        backBtn.addEventListener("click", ()=>{
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft -= 1000;
+        });
+    </script>
+
+</body>
+</html>
