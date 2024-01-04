@@ -195,7 +195,7 @@ footer{
     padding: 20px 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 200px) and (max-width: 400px) {
     .logo-image img{
         width: 50%;
     }
