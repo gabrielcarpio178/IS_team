@@ -246,12 +246,16 @@ footer{
         height: auto;
     }
     .consi-statement{
-        top: 18vh;
-        width: 95%;
+        top: 20vh;
+        gap: 8%;
+        width: 80%;
+        height: fit-content;
+        margin-left: 10%;
     }
     .footer{
         text-align: center;
-        margin-top: 1vh;
+        margin-top: 12vh;
+        font-size: small;
     }
     .con-image{
         width: 100%;
@@ -280,6 +284,7 @@ footer{
     .consi-statement{
         bottom: 10px;
         margin-top: 20vh;
+        height: fit-content;
     }
     .images-sleep > div{
         flex-direction: column;
@@ -359,6 +364,7 @@ footer{
     .consi-statement{
         bottom: 20px;
         margin-top: 50vh;
+        height: fit-content;
     }
     .individual{
         width: 40%;
