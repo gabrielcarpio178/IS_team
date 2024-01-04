@@ -201,20 +201,25 @@ footer{
     }
     .braintap-image{
         display: flex;
-        flex-direction: row;
-        width: fit-content;
+        flex-direction: column;
         margin-left: 45%;
-        margin-top: 30%;
+        margin-top: 2%;
+    }
+    .braintap-content{
+        padding: 5px;
+        height: auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     .braintap-content p{
         font-size: 15px;
-        margin-top: 2vh;
+        height: fit-content;
     }
     .braintap-image img{
-        width: 70%;
+        width: 60%;
     }
     .braintap-subimage img{
-        width: 130%;
+        width: 60%;
     }
     .key-component{
         margin-top: 3%;
@@ -308,6 +313,9 @@ footer{
     }
     .logo-image > img{
         max-width: 30%;
+    }
+    .braintap-content{
+        height: 50vh;
     }
     .braintap-content > p{
         padding: 20px 0 0 100px;
