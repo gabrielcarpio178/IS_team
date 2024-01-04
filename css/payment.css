@@ -172,7 +172,7 @@
         font-size: medium;
       }
 
-     #get-started-button {
+    #get-started-button {
         background: #55d85a;
         border-radius: 20px;
         height: 3vh;
@@ -201,7 +201,7 @@
     #text-content {
       position: absolute;
       height: auto;
-      top: 30%;
+      top: 20%;
       font-size: xx-small;
       height: fit-content;
       width: 70%;
