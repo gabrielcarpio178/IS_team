@@ -250,8 +250,10 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 5px;
+        align-items: center;
+    }
+    .images-sleep-subimage img{
         width: 27%;
-        margin-left: 0%;
         margin-top: 0%;
     }
     .con-image img{
