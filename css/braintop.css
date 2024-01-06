@@ -236,24 +236,32 @@ footer{
         font-size: 13px;
     }
     .images-sleep img{
-        width: 105%;
+        width: 100%;
     }
-    .images-sleep > div{
-        flex-direction: column;
-        gap: 25px;
-        left: 100px;
-        bottom: 27px;
+    .images-sleep{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 0px;
+        left: 0px;
+        bottom: 20px;
     }
     .images-sleep-subimage{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+    .images-sleep-subimage img{
         width: 27%;
-        margin-left: 27%;
+        margin-top: 0%;
     }
     .con-image img{
         width: 100%;
         height: auto;
     }
     .consi-statement{
-        top: 20vh;
+        top: 25vh;
         gap: 8%;
         width: 80%;
         height: fit-content;
@@ -261,7 +269,7 @@ footer{
     }
     .footer{
         text-align: center;
-        margin-top: 12vh;
+        margin-top: 20vh;
         font-size: small;
     }
     .con-image{
@@ -496,7 +504,7 @@ footer{
     }   
     .consi-statement{
         bottom: 20px;
-        margin-top: 40vh;
+        margin-top: 50vh;
         height: fit-content;
     }
     .individual{
@@ -513,8 +521,7 @@ footer{
         width: 100%;
         height: 90vh;
     }
-    footer{
+    .footer{
         text-align: center;
-        margin-top: 30px;
     }
 }
