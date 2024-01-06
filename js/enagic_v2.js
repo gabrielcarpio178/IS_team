@@ -1,4 +1,5 @@
 //get method
+
 const urlParams = new URL(document.location).searchParams;
 const get_type = urlParams.get('type');
 if(get_type!=null){
@@ -277,7 +278,7 @@ if(get_type!=null){
         `;
 
         //text content
-        var label_text_ = "<u style='white-space: nowrap;'>The Ultimate Home Use Model (Platinum)</u>";
+        var label_text_ = "<u>The Ultimate Home Use Model (Platinum)</u>";
         var label_kanagen_ = "The SD501 is the finest machine in its class, with the highest quality built-in electrolysis chamber on the market. This is the Platinum version.";
         var btn_info_1_ = "Powerful Performance";
         var btn_info_2_ = "Large LCD panel";
@@ -878,7 +879,11 @@ let show_content_ = true;
 //first dropdown
 btn_content_show1.addEventListener('click', ()=>{
     if(show_content){
-        content_show1.style.height = '60vh';
+        if(window.innerHeight-10>760){
+            content_show1.style.height = '60vh';
+        }else{
+            content_show1.style.height = '85vh';
+        }
         show_content = false;
         btn_content_show1.classList.remove('fa-chevron-down');
         btn_content_show1.classList.add('fa-chevron-up');
@@ -899,7 +904,11 @@ btn_content_show1.addEventListener('click', ()=>{
 
 btn_content_show2.addEventListener('click', ()=>{
     if(show_content_){
-        content_show2.style.height = '72vh';
+        if(window.innerHeight-10>760){
+            content_show2.style.height = '72vh';
+        }else{
+            content_show2.style.height = '100vh';
+        }
         show_content_ = false;
         btn_content_show2.classList.remove('fa-chevron-down');
         btn_content_show2.classList.add('fa-chevron-up');
