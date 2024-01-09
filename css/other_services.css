@@ -1,0 +1,470 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+/* *{
+    outline: 1px solid black;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #1B2541, #455B92);
+    margin-top: 8%;
+    width: 100%;
+    gap: 100px;
+    height: 20vh;
+}
+header h2{
+    color: white;
+}
+.header-image{
+    width: 15%;
+    margin-top: -5%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 70%;
+    height: 50%;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+    width: 30%;
+    margin-top: 0px;
+    border-right: 2px solid #000;
+    padding-right: 50px;
+}
+
+.offers-content{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40%;
+    margin-left: 10px;
+}
+.oc-content{
+    width: 70%;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 50px;
+}
+.learn-more-btn{
+    width: 30%;
+    height: 4vh;
+    background-color: #4169E1;
+    border-radius: 5px;
+}
+#image-description{
+    text-align: center;
+}
+.offers-image-sofi{
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+}
+.offers-imageT{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.offers-imageV{
+    width: 90%;
+    height: 50%;
+    cursor: pointer;
+}
+.offers-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#selected-image{
+    width: 30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#legalLastName{
+    margin-left: 33px;
+}
+.fname, .lname{
+    height: 4vh;
+    width: 40%;
+}
+.emailph{
+    height: 4vh;
+    width: 85%;
+}
+.passwordph{
+    height: 4vh;
+    width: 85%;
+    margin-top: 20px;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 5%;
+    width: 70%;
+    border: 1px solid black;
+    color: white;
+}
+.su-header{
+    background-color: #4169E1;
+
+}
+.su-content{
+    padding: 20px;
+}
+.sign-up-btn{
+    height: 4vh;
+    width: 20%;
+    background-color: #4169E1;
+    border-radius: 5px;
+}
+
+.sign-up h2{
+    text-align: center;
+}
+
+.carousel-label {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-circle.active {
+    background-color: #333;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #565555;
+    color: white;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    header{
+        margin-top: 10%;
+        gap: 20px;
+        height: 8vh;
+        align-items: center;
+    }
+    header h2{
+        font-size: 15px;
+    }
+    .header-image{
+        width: 20%;
+    }
+    header img{
+        margin-bottom: 8px;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0px;
+    }
+    .offers{
+        gap: 5px;
+        width: 70%;
+    }
+    .offers-content{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+    }
+    .offers h2{
+        font-size: 15px;
+    }
+    .oc-content{
+        width: 85%;
+    }
+    .offers-image-sofi{
+        width: 50%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .offers-imageT{
+        width: 90%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .offers-imageotg{
+        width: 30%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-imagevaro{
+        width: 30%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-imageV{
+        width: 30%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .image-description{
+        width: 20%;
+    }
+    .learn-more-btn{
+        width: 30%;
+        height: 4vh;
+        background-color: #4169E1;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+    .sign-up{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .su-header{
+        height: 8vh;
+    }
+    .su-content{
+        padding: 20px;
+    }
+    .sign-up-btn{
+        height: 4vh;
+        width: 20%;
+        background-color: #4169E1;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+    
+    .sign-up h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    #legalLastName{
+        margin-left: 33px;
+    }
+    .fname, .lname{
+        height: 2vh;
+        width: 40%;
+    }
+    .emailph{
+        height: 2vh;
+        width: 85%;
+    }
+    .passwordph{
+        height: 2vh;
+        width: 85%;
+        margin-top: 20px;
+    }
+    footer h3{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .carousel-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ccc;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to left, #1B2541, #455B92);
+        margin-top: 8%;
+        width: 100%;
+        gap: 100px;
+        height: 20vh;
+    }
+    header h2{
+        color: white;
+        font-size: 30px;
+    }
+    .header-image{
+        width: 15%;
+        margin-top: -80px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        width: 70%;
+        height: 50%;
+    }
+    
+    .offers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 30px;
+        width: 35%;
+        margin-top: 0px;
+        border-right: 2px solid #000;
+        padding-right: 50px;
+    }
+    .offers  h2{
+        font-size: 25px;
+    }
+    .offers-content{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40%;
+        margin-left: 10px;
+    }
+    .oc-content{
+        width: 70%;
+        border: 2px solid black;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    .offers-image-sofi{
+        width: 70%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .offers-imageT{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .offers-imageotg{
+        width: 70%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-imagevaro{
+        width: 70%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-imageV{
+        width: 70%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .offers-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .sign-up{
+        width: 70%;
+    }
+    .su-content{
+        padding: 20px;
+    }
+    .sign-up-btn{
+        height: 4vh;
+        width: 20%;
+        background-color: #4169E1;
+        border-radius: 5px;
+    }
+
+    .sign-up h2{
+        text-align: center;
+    }
+    #legalLastName{
+        margin-left: 33px;
+    }
+    .fname, .lname{
+        height: 4vh;
+        width: 40%;
+    }
+    .emailph{
+        height: 4vh;
+        width: 85%;
+    }
+    .passwordph{
+        height: 4vh;
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
